@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sepia" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9c9a7"/>
+      <stop offset="1" stop-color="#8c6a36"/>
+    </linearGradient>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#b8894b" opacity="0.06"/>
+      <circle cx="2" cy="3" r="0.6" fill="#4a371a" opacity="0.15"/>
+      <circle cx="6" cy="5" r="0.5" fill="#4a371a" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="2560" height="1440" fill="url(#sepia)"/>
+  <rect width="2560" height="1440" fill="url(#grain)"/>
+  <!-- vignette -->
+  <radialGradient id="vg" cx="0.5" cy="0.5" r="0.75">
+    <stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+  </radialGradient>
+  <rect width="2560" height="1440" fill="url(#vg)"/>
+  <!-- silhouettes of people (family) -->
+  <g fill="#4a371a" opacity="0.9">
+    <!-- person 1 -->
+    <circle cx="900" cy="640" r="90"/>
+    <path d="M810,740 Q810,1000 900,1040 Q990,1000 990,740 Z"/>
+    <!-- person 2 (shorter, next to) -->
+    <circle cx="1080" cy="680" r="75"/>
+    <path d="M1005,770 Q1005,1000 1080,1040 Q1155,1000 1155,770 Z"/>
+    <!-- person 3 child -->
+    <circle cx="1240" cy="760" r="55"/>
+    <path d="M1185,820 Q1185,1000 1240,1040 Q1295,1000 1295,820 Z"/>
+    <!-- person 4 -->
+    <circle cx="1430" cy="660" r="85"/>
+    <path d="M1345,750 Q1345,1000 1430,1040 Q1515,1000 1515,750 Z"/>
+    <!-- person 5 -->
+    <circle cx="1620" cy="690" r="78"/>
+    <path d="M1545,770 Q1545,1000 1620,1040 Q1695,1000 1695,770 Z"/>
+  </g>
+  <!-- ornate frame -->
+  <rect x="80" y="80" width="2400" height="1280" fill="none" stroke="#b8894b" stroke-width="4" opacity="0.5"/>
+  <rect x="100" y="100" width="2360" height="1240" fill="none" stroke="#b8894b" stroke-width="1" opacity="0.35"/>
+</svg>

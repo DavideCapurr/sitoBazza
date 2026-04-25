@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d6a3"/>
+      <stop offset="0.35" stop-color="#e8b988"/>
+      <stop offset="0.7" stop-color="#b8894b"/>
+      <stop offset="1" stop-color="#6b4e2a"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5a62"/>
+      <stop offset="0.5" stop-color="#2f3f48"/>
+      <stop offset="1" stop-color="#1c2630"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.75" cy="0.55" r="0.08">
+      <stop offset="0" stop-color="#fff5d8"/>
+      <stop offset="0.5" stop-color="#f2c77a" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f2c77a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2560" height="900" fill="url(#sky)"/>
+  <rect y="900" width="2560" height="540" fill="url(#lake)"/>
+  <circle cx="1920" cy="780" r="60" fill="#fff3cf"/>
+  <rect width="2560" height="1440" fill="url(#sun)"/>
+  <path d="M0,860 Q640,820 1280,850 T2560,840 L2560,920 L0,920 Z" fill="#6b7a4f" opacity="0.55"/>
+  <path d="M0,880 Q640,855 1280,880 T2560,870 L2560,920 L0,920 Z" fill="#4a5538" opacity="0.7"/>
+  <!-- palm silhouettes -->
+  <g fill="#1c1a17" opacity="0.85">
+    <path d="M180,920 L188,700 Q150,710 120,680 Q155,700 180,700 Q140,660 115,620 Q160,650 184,680 Q170,600 200,560 Q205,620 200,680 Q235,640 280,630 Q250,675 210,700 Q260,695 295,675 Q255,715 210,720 Q245,740 280,760 Q240,760 200,740 L210,920 Z"/>
+  </g>
+  <g fill="#1c1a17" opacity="0.75" transform="translate(2100,0) scale(0.85)">
+    <path d="M180,920 L188,720 Q150,730 120,700 Q155,720 180,720 Q140,680 115,640 Q160,670 184,700 Q170,620 200,580 Q205,640 200,700 Q235,660 280,650 Q250,695 210,720 Q260,715 295,695 Q255,735 210,740 L210,920 Z"/>
+  </g>
+  <!-- lake reflections -->
+  <g stroke="#ffffff" stroke-opacity="0.15" stroke-width="1">
+    <line x1="0" y1="950" x2="2560" y2="950"/>
+    <line x1="0" y1="1000" x2="2560" y2="1000"/>
+    <line x1="0" y1="1060" x2="2560" y2="1060"/>
+    <line x1="0" y1="1140" x2="2560" y2="1140"/>
+    <line x1="0" y1="1240" x2="2560" y2="1240"/>
+  </g>
+  <rect width="2560" height="1440" fill="url(#mist)"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bgR" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#4a371a"/>
+      <stop offset="1" stop-color="#1c1208"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#e4d7b6"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.45">
+      <stop offset="0" stop-color="#f2c77a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#b8894b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2560" height="1440" fill="url(#bgR)"/>
+  <rect width="2560" height="1440" fill="url(#glow)"/>
+  <!-- linen -->
+  <rect x="0" y="1000" width="2560" height="440" fill="#f6f1e7" opacity="0.95"/>
+  <rect x="0" y="1000" width="2560" height="6" fill="#b8894b" opacity="0.6"/>
+  <!-- plate -->
+  <ellipse cx="1280" cy="900" rx="620" ry="180" fill="#000" opacity="0.25"/>
+  <circle cx="1280" cy="820" r="440" fill="url(#plate)"/>
+  <circle cx="1280" cy="820" r="440" fill="none" stroke="#b8894b" stroke-width="3" opacity="0.5"/>
+  <circle cx="1280" cy="820" r="320" fill="none" stroke="#b8894b" stroke-width="1.5" opacity="0.3"/>
+  <!-- food suggestion -->
+  <ellipse cx="1280" cy="810" rx="260" ry="100" fill="#6b7a4f" opacity="0.9"/>
+  <ellipse cx="1200" cy="790" rx="80" ry="30" fill="#8fa58a"/>
+  <ellipse cx="1360" cy="830" rx="70" ry="26" fill="#4a5538"/>
+  <circle cx="1280" cy="810" r="28" fill="#b8894b"/>
+  <circle cx="1230" cy="830" r="16" fill="#f2c77a"/>
+  <circle cx="1330" cy="795" r="14" fill="#f2c77a"/>
+  <!-- cutlery suggestion -->
+  <rect x="760" y="760" width="10" height="280" rx="4" fill="#d9c9a7" opacity="0.8"/>
+  <path d="M760,740 L770,740 L772,780 L768,780 Z" fill="#d9c9a7" opacity="0.8"/>
+  <rect x="1790" y="760" width="10" height="280" rx="4" fill="#d9c9a7" opacity="0.8"/>
+  <!-- glass -->
+  <path d="M2000,720 L2110,720 L2100,900 Q2055,920 2010,900 Z" fill="#8c3a2a" opacity="0.6"/>
+  <path d="M2000,720 L2110,720 L2100,900 Q2055,920 2010,900 Z" fill="none" stroke="#f6f1e7" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="2055" cy="720" rx="55" ry="10" fill="#4a1818" opacity="0.7"/>
+  <rect x="2050" y="900" width="10" height="60" fill="#f6f1e7" opacity="0.5"/>
+  <ellipse cx="2055" cy="970" rx="60" ry="8" fill="#f6f1e7" opacity="0.5"/>
+</svg>

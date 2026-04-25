@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c9a7"/>
+      <stop offset="0.5" stop-color="#b8894b"/>
+      <stop offset="1" stop-color="#4a371a"/>
+    </linearGradient>
+  </defs>
+  <rect width="2560" height="1440" fill="url(#bgC)"/>
+  <!-- town silhouette (Salò) -->
+  <g fill="#1c1a17" opacity="0.85">
+    <rect x="0" y="1000" width="2560" height="440"/>
+    <rect x="200" y="900" width="120" height="100"/>
+    <polygon points="200,900 260,840 320,900"/>
+    <rect x="360" y="880" width="150" height="120"/>
+    <polygon points="360,880 435,820 510,880"/>
+    <rect x="560" y="850" width="180" height="150"/>
+    <polygon points="560,850 650,790 740,850"/>
+    <rect x="790" y="870" width="140" height="130"/>
+    <polygon points="790,870 860,820 930,870"/>
+    <rect x="970" y="820" width="120" height="180"/>
+    <polygon points="970,820 1030,760 1090,820"/>
+    <rect x="1140" y="860" width="160" height="140"/>
+    <polygon points="1140,860 1220,800 1300,860"/>
+    <rect x="1330" y="830" width="110" height="170"/>
+    <polygon points="1330,830 1385,770 1440,830"/>
+    <!-- bell tower -->
+    <rect x="1490" y="720" width="80" height="280"/>
+    <polygon points="1490,720 1530,640 1570,720"/>
+    <rect x="1510" y="750" width="40" height="40" fill="#b8894b"/>
+    <rect x="1600" y="850" width="160" height="150"/>
+    <polygon points="1600,850 1680,790 1760,850"/>
+    <rect x="1790" y="870" width="180" height="130"/>
+    <polygon points="1790,870 1880,820 1970,870"/>
+    <rect x="2000" y="890" width="140" height="110"/>
+    <polygon points="2000,890 2070,840 2140,890"/>
+    <rect x="2170" y="870" width="200" height="130"/>
+    <polygon points="2170,870 2270,820 2370,870"/>
+  </g>
+  <!-- lake reflection -->
+  <rect x="0" y="1000" width="2560" height="440" fill="#1c1a17"/>
+  <g stroke="#b8894b" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="1050" x2="2560" y2="1050"/>
+    <line x1="0" y1="1130" x2="2560" y2="1130"/>
+    <line x1="0" y1="1220" x2="2560" y2="1220"/>
+    <line x1="0" y1="1320" x2="2560" y2="1320"/>
+  </g>
+</svg>

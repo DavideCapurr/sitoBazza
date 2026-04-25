@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c9a7"/>
+      <stop offset="1" stop-color="#f6f1e7"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7d8b8"/>
+      <stop offset="1" stop-color="#c9b083"/>
+    </linearGradient>
+  </defs>
+  <rect width="2560" height="1440" fill="url(#skyH)"/>
+  <!-- distant hills -->
+  <path d="M0,900 Q500,780 1000,860 T2000,820 T2560,880 L2560,1000 L0,1000 Z" fill="#8fa58a" opacity="0.5"/>
+  <!-- hotel facade -->
+  <rect x="480" y="520" width="1600" height="780" fill="url(#wall)"/>
+  <rect x="480" y="520" width="1600" height="60" fill="#b8894b"/>
+  <polygon points="480,520 1280,340 2080,520" fill="#8c6a36"/>
+  <!-- windows -->
+  <g fill="#4a3f2a" opacity="0.85">
+    <rect x="560" y="640" width="90" height="140" rx="6"/>
+    <rect x="700" y="640" width="90" height="140" rx="6"/>
+    <rect x="840" y="640" width="90" height="140" rx="6"/>
+    <rect x="980" y="640" width="90" height="140" rx="6"/>
+    <rect x="1120" y="640" width="90" height="140" rx="6"/>
+    <rect x="1350" y="640" width="90" height="140" rx="6"/>
+    <rect x="1490" y="640" width="90" height="140" rx="6"/>
+    <rect x="1630" y="640" width="90" height="140" rx="6"/>
+    <rect x="1770" y="640" width="90" height="140" rx="6"/>
+    <rect x="1910" y="640" width="90" height="140" rx="6"/>
+
+    <rect x="560" y="840" width="90" height="140" rx="6"/>
+    <rect x="700" y="840" width="90" height="140" rx="6"/>
+    <rect x="840" y="840" width="90" height="140" rx="6"/>
+    <rect x="980" y="840" width="90" height="140" rx="6"/>
+    <rect x="1120" y="840" width="90" height="140" rx="6"/>
+    <rect x="1350" y="840" width="90" height="140" rx="6"/>
+    <rect x="1490" y="840" width="90" height="140" rx="6"/>
+    <rect x="1630" y="840" width="90" height="140" rx="6"/>
+    <rect x="1770" y="840" width="90" height="140" rx="6"/>
+    <rect x="1910" y="840" width="90" height="140" rx="6"/>
+  </g>
+  <!-- entrance -->
+  <rect x="1220" y="1040" width="120" height="260" fill="#4a3f2a"/>
+  <rect x="1220" y="1040" width="120" height="40" fill="#b8894b"/>
+  <!-- palms -->
+  <g fill="#6b4e2a" opacity="0.9">
+    <rect x="300" y="900" width="20" height="400"/>
+    <rect x="2240" y="900" width="20" height="400"/>
+  </g>
+  <g fill="#6b7a4f">
+    <path d="M310,900 Q200,820 160,880 Q230,860 310,910 Z"/>
+    <path d="M310,900 Q420,820 460,880 Q390,860 310,910 Z"/>
+    <path d="M310,900 Q260,780 220,770 Q285,800 315,905 Z"/>
+    <path d="M310,900 Q360,780 400,770 Q335,800 310,905 Z"/>
+    <path d="M2250,900 Q2140,820 2100,880 Q2170,860 2250,910 Z"/>
+    <path d="M2250,900 Q2360,820 2400,880 Q2330,860 2250,910 Z"/>
+    <path d="M2250,900 Q2200,780 2160,770 Q2225,800 2255,905 Z"/>
+    <path d="M2250,900 Q2300,780 2340,770 Q2275,800 2250,905 Z"/>
+  </g>
+  <!-- lawn -->
+  <rect x="0" y="1280" width="2560" height="160" fill="#6b7a4f"/>
+  <rect x="0" y="1280" width="2560" height="12" fill="#8fa58a"/>
+</svg>

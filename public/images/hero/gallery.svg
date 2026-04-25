@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fa58a"/>
+      <stop offset="1" stop-color="#4a5538"/>
+    </linearGradient>
+  </defs>
+  <rect width="2560" height="1440" fill="url(#bgG)"/>
+  <!-- sunlight -->
+  <radialGradient id="light" cx="0.3" cy="0.2" r="0.6">
+    <stop offset="0" stop-color="#fff3cf" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#fff3cf" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="2560" height="1440" fill="url(#light)"/>
+  <!-- palms -->
+  <g fill="#1c1a17" opacity="0.85">
+    <rect x="400" y="500" width="40" height="940"/>
+    <path d="M420,500 Q260,380 140,420 Q280,440 415,520 Z"/>
+    <path d="M420,500 Q580,380 700,420 Q560,440 425,520 Z"/>
+    <path d="M420,500 Q340,340 240,310 Q380,360 425,510 Z"/>
+    <path d="M420,500 Q500,340 600,310 Q460,360 420,510 Z"/>
+    <rect x="1900" y="580" width="34" height="860"/>
+    <path d="M1917,580 Q1760,460 1640,500 Q1780,520 1915,600 Z"/>
+    <path d="M1917,580 Q2080,460 2200,500 Q2060,520 1920,600 Z"/>
+    <path d="M1917,580 Q1840,420 1740,390 Q1880,440 1920,590 Z"/>
+    <path d="M1917,580 Q2000,420 2100,390 Q1960,440 1920,590 Z"/>
+  </g>
+  <!-- floor stones -->
+  <g fill="#f6f1e7" opacity="0.25">
+    <rect x="0" y="1200" width="2560" height="240"/>
+    <line x1="0" y1="1260" x2="2560" y2="1260" stroke="#1c1a17" stroke-opacity="0.2" stroke-width="2"/>
+    <line x1="0" y1="1330" x2="2560" y2="1330" stroke="#1c1a17" stroke-opacity="0.2" stroke-width="2"/>
+  </g>
+</svg>

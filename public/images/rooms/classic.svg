@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1067" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wallC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f1e7"/>
+      <stop offset="1" stop-color="#e4d7b6"/>
+    </linearGradient>
+    <radialGradient id="lampC" cx="0.35" cy="0.4" r="0.35">
+      <stop offset="0" stop-color="#fff3cf" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff3cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1067" fill="url(#wallC)"/>
+  <rect width="1600" height="1067" fill="url(#lampC)"/>
+  <!-- floor -->
+  <rect y="780" width="1600" height="287" fill="#b8894b" opacity="0.35"/>
+  <line x1="0" y1="780" x2="1600" y2="780" stroke="#8c6a36" stroke-width="2"/>
+  <!-- bed -->
+  <rect x="400" y="530" width="800" height="260" fill="#f6f1e7"/>
+  <rect x="400" y="500" width="800" height="60" fill="#d9c9a7"/>
+  <rect x="400" y="500" width="800" height="8" fill="#b8894b"/>
+  <!-- pillows -->
+  <rect x="440" y="540" width="260" height="100" rx="12" fill="#ffffff"/>
+  <rect x="900" y="540" width="260" height="100" rx="12" fill="#ffffff"/>
+  <!-- headboard -->
+  <rect x="380" y="280" width="840" height="260" fill="#4a371a"/>
+  <rect x="380" y="280" width="840" height="10" fill="#b8894b"/>
+  <!-- lamps -->
+  <circle cx="340" cy="480" r="35" fill="#fff3cf"/>
+  <rect x="335" y="490" width="10" height="80" fill="#4a371a"/>
+  <circle cx="1260" cy="480" r="35" fill="#fff3cf"/>
+  <rect x="1255" y="490" width="10" height="80" fill="#4a371a"/>
+  <!-- picture -->
+  <rect x="700" y="150" width="200" height="120" fill="#8fa58a" stroke="#b8894b" stroke-width="4"/>
+</svg>

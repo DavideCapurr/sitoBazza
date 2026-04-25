@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8b988"/>
+      <stop offset="1" stop-color="#b8894b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#skyT)"/>
+  <!-- palms -->
+  <g fill="#1c1a17" opacity="0.9">
+    <rect x="280" y="500" width="30" height="700"/>
+    <path d="M295,500 Q160,400 80,440 Q200,470 295,520 Z"/>
+    <path d="M295,500 Q430,400 510,440 Q390,470 295,520 Z"/>
+    <path d="M295,500 Q220,340 120,300 Q260,370 295,510 Z"/>
+    <path d="M295,500 Q370,340 470,300 Q330,370 295,510 Z"/>
+    <rect x="1280" y="560" width="28" height="640"/>
+    <path d="M1294,560 Q1160,460 1080,500 Q1200,530 1294,580 Z"/>
+    <path d="M1294,560 Q1430,460 1510,500 Q1390,530 1294,580 Z"/>
+    <path d="M1294,560 Q1220,400 1120,360 Q1260,430 1294,570 Z"/>
+    <path d="M1294,560 Q1370,400 1470,360 Q1330,430 1294,570 Z"/>
+  </g>
+  <!-- stone floor -->
+  <rect y="900" width="1600" height="300" fill="#d9c9a7"/>
+  <g stroke="#8c6a36" stroke-width="2" opacity="0.4">
+    <line x1="0" y1="960" x2="1600" y2="960"/>
+    <line x1="0" y1="1040" x2="1600" y2="1040"/>
+    <line x1="0" y1="1120" x2="1600" y2="1120"/>
+  </g>
+  <!-- table & chairs -->
+  <ellipse cx="800" cy="960" rx="180" ry="40" fill="#1c1a17" opacity="0.25"/>
+  <rect x="700" y="760" width="200" height="12" fill="#4a371a"/>
+  <circle cx="800" cy="766" r="100" fill="#f6f1e7"/>
+  <rect x="795" y="772" width="10" height="200" fill="#4a371a"/>
+  <circle cx="780" cy="740" r="16" fill="#b8894b"/>
+  <circle cx="820" cy="745" r="14" fill="#8fa58a"/>
+</svg>

@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-gold: #b8894b;
+  --color-brand-brass: #8c6a36;
+  --color-brand-deep: #4a371a;
+  --color-sage: #8fa58a;
+  --color-olive: #6b7a4f;
+  --color-cream: #f6f1e7;
+  --color-cream-soft: #faf6ec;
+  --color-ink: #1c1a17;
+  --color-muted: #5b5650;
+  --color-line: #e6dfd0;
+
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --radius-soft: 0.75rem;
+  --radius-card: 1.25rem;
+
+  --shadow-warm: 0 20px 50px -20px rgba(74, 55, 26, 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream-soft);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-brand-gold);
+  color: #fff;
+}
+
+/* Serif utility for headings */
+.font-serif {
+  font-family: var(--font-serif);
+  font-feature-settings: "liga", "dlig";
+}
+
+/* Small caps eyebrow */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-brand-brass);
+  font-weight: 500;
+}
+
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 1.75rem;
+  height: 1px;
+  background-color: var(--color-brand-gold);
+  vertical-align: middle;
+  margin-right: 0.75rem;
+}
+
+/* Decorative rule */
+.gold-rule {
+  width: 3rem;
+  height: 2px;
+  background-color: var(--color-brand-gold);
+  border-radius: 999px;
+}
+
+/* Focus visible */
+:where(a, button, input, textarea, select):focus-visible {
+  outline: 2px solid var(--color-brand-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Image hover lift */
+.lift {
+  transition:
+    transform 600ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 600ms ease;
+}
+.lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-warm);
+}

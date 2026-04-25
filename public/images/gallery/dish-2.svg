@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="1200" fill="#2b1e10"/>
+  <circle cx="600" cy="600" r="440" fill="#e4d7b6"/>
+  <circle cx="600" cy="600" r="440" fill="none" stroke="#8c6a36" stroke-width="3"/>
+  <ellipse cx="600" cy="640" rx="300" ry="120" fill="#b8894b"/>
+  <ellipse cx="500" cy="620" rx="110" ry="50" fill="#c9b083"/>
+  <ellipse cx="700" cy="640" rx="100" ry="50" fill="#8c6a36"/>
+  <circle cx="600" cy="600" r="40" fill="#4a371a"/>
+  <!-- herbs -->
+  <g fill="#6b7a4f">
+    <circle cx="490" cy="580" r="10"/>
+    <circle cx="520" cy="600" r="8"/>
+    <circle cx="680" cy="590" r="9"/>
+    <circle cx="710" cy="620" r="7"/>
+  </g>
+</svg>

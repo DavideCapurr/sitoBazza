@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyLF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c9a7"/>
+      <stop offset="1" stop-color="#e8b988"/>
+    </linearGradient>
+    <linearGradient id="lkLF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6a70"/>
+      <stop offset="1" stop-color="#2f3f48"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="550" fill="url(#skyLF)"/>
+  <rect y="550" width="1600" height="350" fill="url(#lkLF)"/>
+  <!-- mountains -->
+  <path d="M0,540 L240,400 L480,460 L720,380 L960,450 L1200,410 L1440,480 L1600,440 L1600,550 L0,550 Z" fill="#8fa58a" opacity="0.6"/>
+  <path d="M0,560 L300,470 L600,520 L900,460 L1200,510 L1600,490 L1600,560 L0,560 Z" fill="#4a5538" opacity="0.8"/>
+  <!-- boats -->
+  <ellipse cx="500" cy="680" rx="70" ry="10" fill="#1c1a17"/>
+  <rect x="497" y="640" width="6" height="50" fill="#1c1a17"/>
+  <polygon points="503,640 530,680 503,680" fill="#f6f1e7"/>
+  <ellipse cx="1100" cy="720" rx="50" ry="8" fill="#1c1a17"/>
+  <rect x="1097" y="690" width="6" height="30" fill="#1c1a17"/>
+  <!-- reflections -->
+  <g stroke="#fff" stroke-opacity="0.2" stroke-width="1">
+    <line x1="0" y1="600" x2="1600" y2="600"/>
+    <line x1="0" y1="660" x2="1600" y2="660"/>
+    <line x1="0" y1="740" x2="1600" y2="740"/>
+    <line x1="0" y1="820" x2="1600" y2="820"/>
+  </g>
+</svg>
