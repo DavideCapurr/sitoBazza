@@ -1,6 +1,6 @@
 {
   "common": {
-    "bookNow": "Prenota ora",
+    "bookNow": "Prenota la tua casa",
     "bookCta": "Verifica disponibilità",
     "learnMore": "Scopri di più",
     "discover": "Scopri",
@@ -16,9 +16,11 @@
     "brandFull": "Hotel Ristorante Conca d'Oro",
     "tagline": "Salò, Lago di Garda",
     "viewAllRooms": "Vedi tutte le camere",
-    "viewGallery": "Esplora la galleria",
+    "viewGallery": "Sfoglia il nostro album",
     "readStory": "Leggi la nostra storia",
-    "getDirections": "Indicazioni stradali"
+    "getDirections": "Indicazioni stradali",
+    "signature": "La famiglia Bazzani",
+    "since": "Dal 1952"
   },
   "nav": {
     "home": "Home",
@@ -29,51 +31,56 @@
     "contact": "Contatti"
   },
   "home": {
-    "heroEyebrow": "Dal 1952 — Famiglia Bazzani",
-    "heroTitle": "Tre generazioni di ospitalità sul Lago di Garda",
-    "heroSubtitle": "A pochi passi dal lago, tra palme secolari e sapori bresciani, l'Hotel Conca d'Oro accoglie i suoi ospiti come di famiglia.",
+    "heroEyebrow": "Dal 1952",
+    "heroTitle": "La nostra casa, sul Lago di Garda",
+    "heroSubtitle": "Tre generazioni della famiglia Bazzani, le palme del nonno, le ricette della nonna, e il lago a due passi. Vi aspettiamo come si aspetta un amico.",
+    "heroSignature": "— la famiglia Bazzani",
+    "letterEyebrow": "Una lettera di benvenuto",
+    "letterTitle": "Quando arrivate, sentirete subito l'aria del lago",
+    "letterBody": "Non siamo un grande hotel. Siamo una famiglia che, da tre generazioni, apre la stessa porta agli ospiti che decidono di fermarsi a Salò. Il nonno piantò le palme che oggi vi accoglieranno in terrazza. La nonna lasciò in cucina le ricette che lo chef ancora segue, virgola per virgola. Noi cerchiamo di tenere vivo tutto questo — l'odore del pane al mattino, la luce del lago tra gli ulivi, una conversazione lenta dopo cena. Casa nostra è la vostra casa.",
+    "letterClose": "Vi aspettiamo,",
     "introEyebrow": "Benvenuti",
     "introTitle": "Un rifugio di famiglia a Salò",
-    "introText": "L'Hotel Conca d'Oro nasce come sogno della famiglia Bazzani: offrire un luogo dove il ritmo rallenta, il lago è sempre vicino e ogni ospite viene trattato come un amico atteso da tempo. Oggi, dopo tre generazioni, continuiamo a curare ogni dettaglio con la stessa passione.",
-    "highlightsTitle": "Un'esperienza che sa di casa",
+    "introText": "L'Hotel Conca d'Oro non è un'azienda: è la casa che la famiglia Bazzani apre da tre generazioni. Una conca di palme tra il lago e le colline, dove il tempo rallenta e ogni ospite torna come un amico.",
+    "highlightsTitle": "Quello che vi porterete a casa",
     "highlights": {
       "lake": {
-        "title": "A due passi dal lago",
-        "text": "Dal nostro parco raggiungi il lungolago e il centro storico di Salò in pochi minuti a piedi."
+        "title": "Il lago, a due passi",
+        "text": "Apri la finestra al mattino e senti l'acqua. Dal nostro parco arrivi al lungolago e al centro di Salò in pochi minuti, senza fretta."
       },
       "restaurant": {
-        "title": "Cucina di tradizione",
-        "text": "Il nostro ristorante celebra la cucina bresciana con ingredienti stagionali e ricette di famiglia."
+        "title": "La cucina della nonna",
+        "text": "Le ricette di famiglia, gli ingredienti dei contadini che conosciamo per nome, il pesce del lago e l'olio della Riviera dei Limoni."
       },
       "park": {
-        "title": "Parco e terrazza",
-        "text": "Un giardino di palme e ulivi con terrazza per colazioni all'aperto e aperitivi al tramonto."
+        "title": "Le palme del nonno",
+        "text": "Le piantò lui, settant'anni fa. Oggi danno ombra a colazione e cornice agli aperitivi al tramonto."
       },
       "family": {
-        "title": "Conduzione familiare",
-        "text": "Tre generazioni Bazzani accolgono gli ospiti con la stessa cura di sempre."
+        "title": "La nostra porta",
+        "text": "Apriamo personalmente. Vi facciamo trovare il caffè, vi raccontiamo dove andare, vi salutiamo per nome."
       }
     },
     "roomsTeaserEyebrow": "Le camere",
-    "roomsTeaserTitle": "39 camere, ognuna con la sua anima",
-    "roomsTeaserText": "Dalle accoglienti Classic alle luminose Vista Lago, ogni camera è pensata per farti sentire a casa.",
+    "roomsTeaserTitle": "39 camere, ognuna con la sua storia",
+    "roomsTeaserText": "Le abbiamo curate una per una, mantenendo l'anima della casa. Dalle Classic affacciate sul parco alle Vista Lago dove l'acqua è la prima cosa che vedrete al mattino.",
     "restaurantTeaserEyebrow": "Il ristorante",
     "restaurantTeaserTitle": "Sapori del Garda, anima bresciana",
-    "restaurantTeaserText": "Il nostro chef rivisita i classici della tradizione con pesce di lago, olio della riviera e verdure dell'orto.",
-    "reviewsTitle": "Cosa dicono di noi",
+    "restaurantTeaserText": "I nostri piatti raccontano una geografia precisa: il pesce del lago, gli spiedi di Brescia, l'olio della riviera, le verdure dell'orto a pochi chilometri. Ricette di famiglia, non di chef.",
+    "reviewsTitle": "Le voci di chi è tornato",
     "reviews": [
       {
-        "text": "Accoglienza impeccabile, una famiglia che ti fa sentire a casa. Colazione in terrazza indimenticabile.",
+        "text": "Ci hanno accolti come parenti. La colazione in terrazza, sotto le palme, è un'immagine che ci portiamo a casa ogni anno.",
         "author": "Laura G.",
         "source": "Tripadvisor"
       },
       {
-        "text": "Posizione splendida, a due passi dal lago. Il ristorante è una chicca: cucina bresciana autentica.",
+        "text": "Il lago è lì, vero, a due passi. Ma è la cucina che ci ha fatto innamorare: bresciana, semplice, fatta con cura.",
         "author": "Markus W.",
         "source": "Booking"
       },
       {
-        "text": "Torniamo ogni anno. Il parco con le palme è un angolo di paradiso.",
+        "text": "Torniamo da otto anni. Mio figlio chiama Salò 'l'hotel con le palme'. Per noi è casa.",
         "author": "Famiglia Rossi",
         "source": "Google"
       }
@@ -133,44 +140,45 @@
   },
   "story": {
     "eyebrow": "La famiglia Bazzani",
-    "title": "Una storia iniziata nel 1952",
-    "intro": "Tre generazioni di ospitalità a Salò. L'Hotel Conca d'Oro non è un'azienda, è una casa che la famiglia Bazzani ha costruito accogliendo ospiti provenienti da ogni parte del mondo.",
-    "timelineTitle": "Tappe della nostra storia",
+    "title": "Settant'anni di mattine sul lago",
+    "intro": "Tre generazioni, una sola casa. L'Hotel Conca d'Oro è la storia di una famiglia che ha imparato a ospitare nel modo più semplice: aprendo la propria porta.",
+    "pullQuote": "«Quando arriva un ospite, prima di tutto gli si offre un caffè. Poi si vede.» — Nonno Carlo",
+    "timelineTitle": "L'album di famiglia",
     "timeline": [
       {
         "year": "1952",
-        "title": "L'inizio",
-        "text": "I nonni Bazzani aprono una piccola locanda con ristorante a due passi dal lago."
+        "title": "Una locanda di nove tavoli",
+        "text": "Carlo e Maria Bazzani aprono una piccola locanda a due passi dal lago. Lui in sala, lei ai fornelli. Le palme arriveranno l'anno dopo, dal vivaio di un amico."
       },
       {
         "year": "1978",
-        "title": "L'ampliamento",
-        "text": "La seconda generazione trasforma la locanda in hotel con 39 camere e cura personalmente il parco delle palme."
+        "title": "Trentanove porte da aprire",
+        "text": "I figli ampliano la locanda: nascono 39 camere e la terrazza affacciata sulle palme che il nonno ha piantato. La cucina resta quella della nonna."
       },
       {
         "year": "2001",
-        "title": "Il nuovo millennio",
-        "text": "Rinnoviamo camere e terrazza mantenendo l'anima originale dell'edificio storico."
+        "title": "Restauro, non ristrutturazione",
+        "text": "Rinnoviamo camere e bagni mantenendo i pavimenti originali, gli infissi del nonno, la luce del cortile. Cambiare senza tradire."
       },
       {
         "year": "Oggi",
-        "title": "La terza generazione",
-        "text": "Continuiamo con la stessa cura di sempre, aggiungendo attenzione alla sostenibilità e ai prodotti locali."
+        "title": "La terza generazione vi apre",
+        "text": "Curiamo ancora ogni dettaglio personalmente. Ogni mattina apriamo le persiane delle 39 camere. Ogni sera spegniamo le luci della terrazza per ultimi."
       }
     ],
-    "valuesTitle": "I nostri valori",
+    "valuesTitle": "Quello in cui crediamo",
     "values": [
       {
-        "title": "Ospitalità vera",
-        "text": "Trattiamo ogni ospite come un amico di famiglia, dal primo saluto all'arrivederci."
+        "title": "Si entra come ospiti, si esce come amici",
+        "text": "Ricordiamo il vostro nome, come prendete il caffè, e a che ora amate fare colazione. Sono cose piccole, ma fanno la differenza."
       },
       {
-        "title": "Territorio",
-        "text": "Scegliamo fornitori del Garda e della Valle Sabbia. Conosciamo i loro nomi, le loro storie."
+        "title": "Il nostro Garda nel piatto",
+        "text": "I nostri fornitori sono pescatori, contadini, frantoiani che lavorano a chilometri da qui. Li conosciamo per nome — e si sente."
       },
       {
-        "title": "Tempo lento",
-        "text": "Qui il tempo scorre al ritmo del lago: non abbiamo fretta, e invitiamo te a non averne."
+        "title": "Il tempo del lago",
+        "text": "Qui non c'è fretta. La conca di palme protegge dal vento e anche dall'orologio. Vi invitiamo a rallentare con noi."
       }
     ]
   },

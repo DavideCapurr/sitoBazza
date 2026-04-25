@@ -1,6 +1,6 @@
 {
   "common": {
-    "bookNow": "Jetzt buchen",
+    "bookNow": "Ihren Aufenthalt buchen",
     "bookCta": "Verfügbarkeit prüfen",
     "learnMore": "Mehr erfahren",
     "discover": "Entdecken",
@@ -16,9 +16,11 @@
     "brandFull": "Hotel Restaurant Conca d'Oro",
     "tagline": "Salò, Gardasee",
     "viewAllRooms": "Alle Zimmer ansehen",
-    "viewGallery": "Galerie entdecken",
+    "viewGallery": "Unser Album durchblättern",
     "readStory": "Unsere Geschichte",
-    "getDirections": "Anfahrt"
+    "getDirections": "Anfahrt",
+    "signature": "Die Familie Bazzani",
+    "since": "Seit 1952"
   },
   "nav": {
     "home": "Startseite",
@@ -29,51 +31,56 @@
     "contact": "Kontakt"
   },
   "home": {
-    "heroEyebrow": "Seit 1952 — Familie Bazzani",
-    "heroTitle": "Drei Generationen Gastfreundschaft am Gardasee",
-    "heroSubtitle": "Nur wenige Schritte vom See entfernt, zwischen jahrhundertealten Palmen und bresciansker Küche, empfängt das Hotel Conca d'Oro seine Gäste wie Familie.",
+    "heroEyebrow": "Seit 1952",
+    "heroTitle": "Unser Zuhause am Gardasee",
+    "heroSubtitle": "Drei Generationen der Familie Bazzani, die Palmen, die der Großvater pflanzte, die Rezepte der Großmutter und der See nur wenige Schritte entfernt. Wir empfangen Sie wie einen alten Freund.",
+    "heroSignature": "— die Familie Bazzani",
+    "letterEyebrow": "Ein Willkommensbrief",
+    "letterTitle": "Wenn Sie ankommen, spüren Sie den See sofort",
+    "letterBody": "Wir sind kein großes Hotel. Wir sind eine Familie, die seit drei Generationen dieselbe Tür für die Gäste öffnet, die in Salò Halt machen. Unser Großvater pflanzte die Palmen, die Sie auf der Terrasse begrüßen werden. Unsere Großmutter hinterließ in der Küche die Rezepte, denen unser Koch noch heute Komma für Komma folgt. Wir versuchen, all das lebendig zu halten — den Duft frischen Brotes am Morgen, das Licht des Sees zwischen den Olivenbäumen, ein langsames Gespräch nach dem Essen. Unser Zuhause ist Ihr Zuhause.",
+    "letterClose": "Wir warten auf Sie,",
     "introEyebrow": "Willkommen",
-    "introTitle": "Ein familiäres Refugium in Salò",
-    "introText": "Das Hotel Conca d'Oro entstand aus dem Traum der Familie Bazzani: ein Ort, an dem der Rhythmus sich verlangsamt, der See immer nah ist und jeder Gast wie ein langersehnter Freund empfangen wird. Heute, drei Generationen später, kümmern wir uns mit derselben Leidenschaft um jedes Detail.",
-    "highlightsTitle": "Ein Erlebnis, das sich wie zu Hause anfühlt",
+    "introTitle": "Ein familiäres Zuhause in Salò",
+    "introText": "Das Hotel Conca d'Oro ist kein Unternehmen — es ist das Zuhause, das die Familie Bazzani seit drei Generationen öffnet. Eine Schale aus Palmen zwischen See und Hügeln, wo die Zeit langsamer wird und jeder Gast als Freund zurückkehrt.",
+    "highlightsTitle": "Was Sie mit nach Hause nehmen",
     "highlights": {
       "lake": {
-        "title": "Nur einen Katzensprung vom See",
-        "text": "Von unserem Park aus erreichen Sie die Seepromenade und die Altstadt von Salò in wenigen Minuten zu Fuß."
+        "title": "Der See, nur wenige Schritte",
+        "text": "Öffnen Sie morgens das Fenster — Sie hören das Wasser. Von unserem Garten erreichen Sie die Seepromenade und die Altstadt von Salò in einem gemütlichen Spaziergang."
       },
       "restaurant": {
-        "title": "Traditionelle Küche",
-        "text": "Unser Restaurant zelebriert die bresciansker Küche mit saisonalen Zutaten und Familienrezepten."
+        "title": "Großmutters Küche",
+        "text": "Familienrezepte, Zutaten von Bauern, die wir mit Namen kennen, Seefisch und Olivenöl von der Riviera dei Limoni."
       },
       "park": {
-        "title": "Park und Terrasse",
-        "text": "Ein Garten mit Palmen und Olivenbäumen, mit Terrasse für Frühstück im Freien und Aperitif bei Sonnenuntergang."
+        "title": "Großvaters Palmen",
+        "text": "Er pflanzte sie vor siebzig Jahren. Heute spenden sie Schatten beim Frühstück und rahmen den Aperitif bei Sonnenuntergang."
       },
       "family": {
-        "title": "Familiengeführt",
-        "text": "Drei Generationen Bazzani empfangen ihre Gäste mit derselben Fürsorge wie immer."
+        "title": "Unsere Tür, unser Empfang",
+        "text": "Wir öffnen sie selbst. Wir sorgen dafür, dass der Kaffee bereit ist, geben Tipps für den Tag und verabschieden Sie mit Namen."
       }
     },
     "roomsTeaserEyebrow": "Die Zimmer",
-    "roomsTeaserTitle": "39 Zimmer, jedes mit seiner eigenen Seele",
-    "roomsTeaserText": "Von den gemütlichen Classic-Zimmern bis zu den hellen Zimmern mit Seeblick: jedes ist so gestaltet, dass Sie sich wie zu Hause fühlen.",
+    "roomsTeaserTitle": "39 Zimmer, jedes mit seiner Geschichte",
+    "roomsTeaserText": "Wir haben sie eines nach dem anderen gepflegt und die Seele des Hauses bewahrt. Von den Classic-Zimmern zum Garten bis zu den Seeblick-Zimmern, in denen das Wasser das Erste ist, was Sie morgens sehen.",
     "restaurantTeaserEyebrow": "Das Restaurant",
-    "restaurantTeaserTitle": "Aromen des Gardasees, bresciansker Seele",
-    "restaurantTeaserText": "Unser Chef interpretiert die Klassiker neu mit Seefisch, Olivenöl der Riviera und Gemüse aus dem Garten.",
-    "reviewsTitle": "Was unsere Gäste sagen",
+    "restaurantTeaserTitle": "Aromen des Gardasees, bresciansker Herz",
+    "restaurantTeaserText": "Unsere Gerichte erzählen eine genaue Geografie: Seefisch, Brescianer Spieße, Olivenöl der Riviera, Gemüse aus Gärten wenige Kilometer entfernt. Familienrezepte, keine Kochtricks.",
+    "reviewsTitle": "Stimmen derer, die zurückgekommen sind",
     "reviews": [
       {
-        "text": "Unvergleichliche Gastfreundschaft, eine Familie, die Sie sich zu Hause fühlen lässt. Frühstück auf der Terrasse — unvergesslich.",
+        "text": "Sie haben uns wie Verwandte empfangen. Frühstück auf der Terrasse unter den Palmen — ein Bild, das wir jedes Jahr mit nach Hause nehmen.",
         "author": "Laura G.",
         "source": "Tripadvisor"
       },
       {
-        "text": "Wunderschöne Lage, nur wenige Schritte vom See. Das Restaurant ist ein Juwel: authentische bresciansker Küche.",
+        "text": "Der See ist wirklich nur wenige Schritte entfernt. Aber in die Küche haben wir uns verliebt: bresciansker, einfach, mit Sorgfalt zubereitet.",
         "author": "Markus W.",
         "source": "Booking"
       },
       {
-        "text": "Wir kommen jedes Jahr wieder. Der Palmengarten ist ein Stück Paradies.",
+        "text": "Wir kommen seit acht Jahren wieder. Unser Sohn nennt Salò 'das Hotel mit den Palmen'. Für uns ist es Zuhause.",
         "author": "Familie Rossi",
         "source": "Google"
       }
@@ -133,44 +140,45 @@
   },
   "story": {
     "eyebrow": "Die Familie Bazzani",
-    "title": "Eine Geschichte, die 1952 begann",
-    "intro": "Drei Generationen Gastfreundschaft in Salò. Das Hotel Conca d'Oro ist kein Unternehmen, es ist ein Zuhause, das die Familie Bazzani aufgebaut hat, indem sie Gäste aus aller Welt empfangen hat.",
-    "timelineTitle": "Meilensteine unserer Geschichte",
+    "title": "Siebzig Jahre Morgen am See",
+    "intro": "Drei Generationen, ein Zuhause. Das Hotel Conca d'Oro ist die Geschichte einer Familie, die das Gastsein ganz einfach gelernt hat: indem sie ihre eigene Tür öffnet.",
+    "pullQuote": "„Wenn ein Gast kommt, bietet man ihm zuerst einen Kaffee an. Dann sehen wir weiter.“ — Großvater Carlo",
+    "timelineTitle": "Das Familienalbum",
     "timeline": [
       {
         "year": "1952",
-        "title": "Der Anfang",
-        "text": "Die Großeltern Bazzani eröffnen ein kleines Gasthaus mit Restaurant wenige Schritte vom See entfernt."
+        "title": "Ein Gasthaus mit neun Tischen",
+        "text": "Carlo und Maria Bazzani eröffnen ein kleines Gasthaus wenige Schritte vom See entfernt. Er empfängt die Gäste, sie kümmert sich um die Küche. Die Palmen kommen ein Jahr später, aus der Gärtnerei eines Freundes."
       },
       {
         "year": "1978",
-        "title": "Die Erweiterung",
-        "text": "Die zweite Generation verwandelt das Gasthaus in ein Hotel mit 39 Zimmern und pflegt persönlich den Palmengarten."
+        "title": "Neununddreißig Türen, die zu öffnen sind",
+        "text": "Die zweite Generation erweitert das Gasthaus: 39 Zimmer und eine Terrasse, die auf die Palmen blickt, die der Großvater gepflanzt hat. Die Küche bleibt die der Großmutter."
       },
       {
         "year": "2001",
-        "title": "Das neue Jahrtausend",
-        "text": "Wir renovieren Zimmer und Terrasse und bewahren die ursprüngliche Seele des historischen Gebäudes."
+        "title": "Restaurierung, keine Renovierung",
+        "text": "Wir erneuern Zimmer und Bäder und bewahren die ursprünglichen Böden, Großvaters Fensterrahmen, das Licht des Innenhofs. Verändern, ohne zu verraten."
       },
       {
         "year": "Heute",
-        "title": "Die dritte Generation",
-        "text": "Wir machen mit derselben Fürsorge wie immer weiter und legen mehr Wert auf Nachhaltigkeit und lokale Produkte."
+        "title": "Die dritte Generation öffnet für Sie",
+        "text": "Wir kümmern uns weiterhin persönlich um jedes Detail. Jeden Morgen öffnen wir die Fensterläden aller 39 Zimmer. Jeden Abend löschen wir als Letzte die Lichter der Terrasse."
       }
     ],
-    "valuesTitle": "Unsere Werte",
+    "valuesTitle": "Woran wir glauben",
     "values": [
       {
-        "title": "Echte Gastfreundschaft",
-        "text": "Wir behandeln jeden Gast wie einen Familienfreund, vom ersten Hallo bis zum Abschied."
+        "title": "Sie kommen als Gäste, Sie gehen als Freunde",
+        "text": "Wir merken uns Ihren Namen, wie Sie Ihren Kaffee mögen, wann Sie frühstücken. Es sind Kleinigkeiten — sie machen den Unterschied."
       },
       {
-        "title": "Territorium",
-        "text": "Wir wählen Lieferanten aus Garda und Valle Sabbia. Wir kennen ihre Namen, ihre Geschichten."
+        "title": "Unser Garda auf Ihrem Teller",
+        "text": "Unsere Lieferanten sind Fischer, Bauern, Ölmüller, die nur Kilometer entfernt arbeiten. Wir kennen sie mit Namen — und Sie schmecken es."
       },
       {
-        "title": "Langsame Zeit",
-        "text": "Hier fließt die Zeit im Rhythmus des Sees: wir haben keine Eile, und wir laden Sie ein, auch keine zu haben."
+        "title": "Seezeit",
+        "text": "Hier gibt es keine Eile. Die Schale aus Palmen schützt vor dem Wind und auch vor der Uhr. Wir laden Sie ein, mit uns langsamer zu werden."
       }
     ]
   },

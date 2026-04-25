@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import clsx from "clsx";
 import { BookNowButton } from "./BookNowButton";
+import { Signature } from "./Signature";
 
 export function Hero({
   eyebrow,
@@ -10,6 +11,7 @@ export function Hero({
   image,
   imageAlt,
   cta,
+  signature,
   height = "tall",
   priority = true,
 }: {
@@ -19,6 +21,7 @@ export function Hero({
   image: string;
   imageAlt: string;
   cta?: ReactNode;
+  signature?: string;
   height?: "tall" | "medium";
   priority?: boolean;
 }) {
@@ -57,6 +60,13 @@ export function Hero({
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/85 sm:text-xl">
               {subtitle}
             </p>
+          )}
+          {signature && (
+            <div className="mt-8">
+              <Signature size="md" tone="white">
+                {signature}
+              </Signature>
+            </div>
           )}
           <div className="mt-10 flex flex-wrap items-center gap-4">
             {cta ?? <BookNowButton size="lg" />}

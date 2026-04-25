@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Cormorant_Garamond, Inter, Caveat } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -20,6 +20,13 @@ const serif = Cormorant_Garamond({
 const sans = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+const script = Caveat({
+  subsets: ["latin"],
+  weight: ["500", "700"],
+  variable: "--font-caveat",
   display: "swap",
 });
 
@@ -95,7 +102,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={typedLocale} className={`${serif.variable} ${sans.variable}`}>
+    <html lang={typedLocale} className={`${serif.variable} ${sans.variable} ${script.variable}`}>
       <body className="bg-cream-soft text-ink antialiased">
         <NextIntlClientProvider messages={messages} locale={typedLocale}>
           <HotelJsonLd locale={typedLocale} />

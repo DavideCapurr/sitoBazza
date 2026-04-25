@@ -5,11 +5,14 @@ import { Container } from "@/components/Container";
 import { SectionTitle } from "@/components/SectionTitle";
 import { RoomCard } from "@/components/RoomCard";
 import { BookNowButton } from "@/components/BookNowButton";
+import { Signature } from "@/components/Signature";
+import { OrnamentDivider } from "@/components/OrnamentDivider";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
-import { Waves, UtensilsCrossed, TreePalm, Heart } from "lucide-react";
 
 type Review = { text: string; author: string; source: string };
+
+const HIGHLIGHT_KEYS = ["lake", "restaurant", "park", "family"] as const;
 
 export async function generateMetadata({
   params,
@@ -33,20 +36,17 @@ export default async function HomePage({
   const tCommon = await getTranslations({ locale, namespace: "common" });
   const tRooms = await getTranslations({ locale, namespace: "rooms" });
 
-  const highlightIcons = {
-    lake: Waves,
-    restaurant: UtensilsCrossed,
-    park: TreePalm,
-    family: Heart,
-  } as const;
-
   const reviews = t.raw("reviews") as Review[];
   const roomTypes = tRooms.raw("types") as {
     name: string;
     description: string;
     features: string[];
   }[];
-  const roomImages = ["/images/rooms/classic.svg", "/images/rooms/superior.svg", "/images/rooms/lake-view.svg"];
+  const roomImages = [
+    "/images/rooms/classic.svg",
+    "/images/rooms/superior.svg",
+    "/images/rooms/lake-view.svg",
+  ];
 
   return (
     <>
@@ -54,56 +54,68 @@ export default async function HomePage({
         eyebrow={t("heroEyebrow")}
         title={t("heroTitle")}
         subtitle={t("heroSubtitle")}
+        signature={t("heroSignature")}
         image="/images/hero/home.svg"
         imageAlt="Salò, Lago di Garda al tramonto"
       />
 
-      {/* Intro */}
-      <section className="py-24 sm:py-32">
-        <Container>
-          <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
-            <SectionTitle
-              eyebrow={t("introEyebrow")}
-              title={t("introTitle")}
-              intro={t("introText")}
-              as="h2"
+      {/* Letter from the family — il cuore del sito */}
+      <section className="paper-grain py-24 sm:py-32">
+        <Container size="narrow">
+          <div className="flex flex-col items-center gap-6 text-center">
+            <span className="eyebrow">{t("letterEyebrow")}</span>
+            <h2 className="font-serif text-balance text-3xl leading-tight text-ink sm:text-4xl md:text-5xl">
+              {t("letterTitle")}
+            </h2>
+            <OrnamentDivider variant="wave" className="my-2 w-full max-w-md" />
+          </div>
+
+          <div className="relative mx-auto mt-12 max-w-2xl rounded-card bg-paper px-7 py-12 shadow-paper sm:px-12 sm:py-16">
+            <span
+              aria-hidden
+              className="absolute -top-3 left-1/2 inline-block h-6 w-24 -translate-x-1/2 rotate-[-2deg] rounded-sm bg-brand-gold/30 shadow-sm"
             />
-            <div className="relative aspect-[4/5] overflow-hidden rounded-card lift">
-              <Image
-                src="/images/hero/hotel.svg"
-                alt="Hotel Conca d'Oro, facciata"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-              />
+            <p className="font-serif text-lg leading-[1.65] text-ink/90 sm:text-xl">
+              {t("letterBody")}
+            </p>
+            <p className="mt-8 text-base text-muted">{t("letterClose")}</p>
+            <div className="mt-3">
+              <Signature size="lg" tone="gold">
+                {tCommon("signature")}
+              </Signature>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* Highlights */}
-      <section className="bg-cream py-24">
+      {/* Highlights — racconto editoriale, non card-grid */}
+      <section className="bg-cream py-24 sm:py-32">
         <Container>
-          <SectionTitle
-            title={t("highlightsTitle")}
-            align="center"
-            className="mb-14 mx-auto"
-          />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-            {(["lake", "restaurant", "park", "family"] as const).map((key) => {
-              const Icon = highlightIcons[key];
+          <div className="mb-16 flex flex-col items-center gap-4 text-center">
+            <span className="eyebrow">{tCommon("since")}</span>
+            <h2 className="font-serif text-balance text-3xl leading-tight text-ink sm:text-4xl md:text-5xl">
+              {t("highlightsTitle")}
+            </h2>
+            <OrnamentDivider variant="olive" className="mt-2 w-full max-w-md" />
+          </div>
+
+          <div className="grid gap-12 md:grid-cols-2 md:gap-16 lg:gap-20">
+            {HIGHLIGHT_KEYS.map((key, idx) => {
+              const isAlt = idx % 2 === 1;
               return (
                 <article
                   key={key}
-                  className="group flex flex-col items-start gap-4 rounded-card bg-white p-8 transition-shadow duration-300 hover:shadow-warm"
+                  className={`relative ${isAlt ? "md:mt-16" : ""}`}
                 >
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cream text-brand-brass">
-                    <Icon size={22} aria-hidden />
-                  </span>
-                  <h3 className="font-serif text-xl text-ink">
-                    {t(`highlights.${key}.title`)}
+                  <p className="font-script text-3xl text-brand-brass">
+                    {String(idx + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="mt-3 font-serif text-3xl leading-tight text-ink sm:text-4xl">
+                    <span className="wavy">
+                      {t(`highlights.${key}.title`)}
+                    </span>
                   </h3>
-                  <p className="text-sm leading-relaxed text-muted">
+                  <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
                     {t(`highlights.${key}.text`)}
                   </p>
                 </article>
@@ -145,8 +157,8 @@ export default async function HomePage({
         </Container>
       </section>
 
-      {/* Restaurant teaser */}
-      <section className="bg-ink py-24 text-white sm:py-32">
+      {/* Restaurant teaser — bg lake-deep, più caldo del nero puro */}
+      <section className="bg-lake-deep py-24 text-white sm:py-32">
         <Container>
           <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
             <div className="relative aspect-[4/3] overflow-hidden rounded-card">
@@ -178,22 +190,29 @@ export default async function HomePage({
         </Container>
       </section>
 
-      {/* Reviews */}
-      <section className="py-24 sm:py-32">
+      {/* Reviews — voci di chi è tornato, stile lettera */}
+      <section className="paper-grain py-24 sm:py-32">
         <Container>
-          <SectionTitle
-            title={t("reviewsTitle")}
-            align="center"
-            className="mb-14 mx-auto"
-          />
+          <div className="mb-16 flex flex-col items-center gap-4 text-center">
+            <h2 className="font-serif text-balance text-3xl leading-tight text-ink sm:text-4xl md:text-5xl">
+              {t("reviewsTitle")}
+            </h2>
+            <OrnamentDivider variant="sun" className="mt-2 w-full max-w-md" />
+          </div>
           <div className="grid gap-6 md:grid-cols-3">
             {reviews.map((r, i) => (
               <figure
                 key={i}
-                className="flex flex-col gap-5 rounded-card border border-line bg-white p-8"
+                className={`relative flex flex-col gap-5 rounded-card bg-paper p-8 shadow-paper ${
+                  i === 1 ? "md:translate-y-6" : ""
+                } ${i === 2 ? "md:rotate-[0.5deg]" : ""} ${
+                  i === 0 ? "md:-rotate-[0.5deg]" : ""
+                }`}
               >
-                <span className="text-3xl text-brand-gold">“</span>
-                <blockquote className="font-serif text-lg leading-snug text-ink">
+                <span className="font-serif text-5xl leading-none text-brand-gold">
+                  &ldquo;
+                </span>
+                <blockquote className="font-serif text-lg italic leading-snug text-ink">
                   {r.text}
                 </blockquote>
                 <figcaption className="mt-auto text-xs uppercase tracking-[0.2em] text-muted">
@@ -205,7 +224,7 @@ export default async function HomePage({
         </Container>
       </section>
 
-      {/* CTA */}
+      {/* CTA finale */}
       <section className="relative overflow-hidden py-24">
         <div className="absolute inset-0">
           <Image
@@ -215,15 +234,17 @@ export default async function HomePage({
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-black/55" aria-hidden />
+          <div className="absolute inset-0 bg-lake-deep/70" aria-hidden />
         </div>
         <Container className="relative">
           <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center text-white">
-            <SectionTitle
-              title={t("introTitle")}
-              tone="dark"
-              align="center"
-            />
+            <span className="font-script text-3xl text-white/90">
+              {tCommon("signature")}
+            </span>
+            <h2 className="font-serif text-balance text-4xl leading-tight sm:text-5xl">
+              {t("introTitle")}
+            </h2>
+            <p className="text-lg text-white/85">{t("introText")}</p>
             <BookNowButton size="lg" />
           </div>
         </Container>

@@ -1,9 +1,10 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { Hero } from "@/components/Hero";
 import { Container } from "@/components/Container";
-import { SectionTitle } from "@/components/SectionTitle";
+import { Polaroid } from "@/components/Polaroid";
+import { Signature } from "@/components/Signature";
+import { OrnamentDivider } from "@/components/OrnamentDivider";
 
 export async function generateMetadata({
   params,
@@ -15,6 +16,15 @@ export async function generateMetadata({
   return { title: t("storyTitle"), description: t("storyDescription") };
 }
 
+const TIMELINE_IMAGES = [
+  "/images/hero/story.svg",
+  "/images/hero/hotel.svg",
+  "/images/gallery/terrace.svg",
+  "/images/gallery/lakefront.svg",
+];
+
+const ROTATIONS = [-2.5, 1.5, -1.5, 2];
+
 export default async function StoryPage({
   params,
 }: {
@@ -24,6 +34,7 @@ export default async function StoryPage({
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "story" });
+  const tCommon = await getTranslations({ locale, namespace: "common" });
 
   const timeline = t.raw("timeline") as {
     year: string;
@@ -43,54 +54,90 @@ export default async function StoryPage({
         height="medium"
       />
 
-      {/* Timeline */}
-      <section className="py-24 sm:py-32">
-        <Container size="narrow">
-          <SectionTitle
-            title={t("timelineTitle")}
-            align="center"
-            className="mx-auto mb-16"
-          />
-          <ol className="relative space-y-12 border-l border-line pl-8 sm:pl-12">
-            {timeline.map((step) => (
-              <li key={step.year} className="relative">
-                <span className="absolute -left-[37px] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-brand-gold sm:-left-[49px]">
-                  <span className="h-2 w-2 rounded-full bg-white" />
-                </span>
-                <p className="font-serif text-3xl text-brand-brass">
-                  {step.year}
-                </p>
-                <h3 className="mt-2 font-serif text-2xl text-ink">
-                  {step.title}
-                </h3>
-                <p className="mt-3 text-base leading-relaxed text-muted">
-                  {step.text}
-                </p>
-              </li>
-            ))}
+      {/* Pull quote dal nonno */}
+      <section className="paper-grain py-24">
+        <Container size="narrow" className="text-center">
+          <OrnamentDivider variant="sun" className="mx-auto mb-10 w-full max-w-md" />
+          <blockquote className="font-serif text-2xl italic leading-snug text-ink sm:text-3xl md:text-4xl">
+            {t("pullQuote")}
+          </blockquote>
+        </Container>
+      </section>
+
+      {/* Album di famiglia — polaroid timeline */}
+      <section className="bg-cream py-24 sm:py-32">
+        <Container>
+          <div className="mb-16 flex flex-col items-center gap-3 text-center">
+            <span className="eyebrow">{t("eyebrow")}</span>
+            <h2 className="font-serif text-balance text-3xl leading-tight text-ink sm:text-4xl md:text-5xl">
+              {t("timelineTitle")}
+            </h2>
+          </div>
+
+          <ol className="grid gap-x-8 gap-y-20 md:grid-cols-2">
+            {timeline.map((step, idx) => {
+              const isAlt = idx % 2 === 1;
+              return (
+                <li
+                  key={step.year}
+                  className={`flex flex-col items-center gap-6 ${
+                    isAlt ? "md:mt-24" : ""
+                  } md:flex-row md:items-start ${
+                    isAlt ? "md:flex-row-reverse" : ""
+                  }`}
+                >
+                  <div className="shrink-0">
+                    <Polaroid
+                      src={TIMELINE_IMAGES[idx] ?? TIMELINE_IMAGES[0]}
+                      alt={step.title}
+                      caption={step.year}
+                      rotation={ROTATIONS[idx] ?? 0}
+                      width={260}
+                      height={260}
+                    />
+                  </div>
+                  <div
+                    className={`flex flex-col gap-3 ${
+                      isAlt ? "md:items-end md:text-right" : ""
+                    }`}
+                  >
+                    <span className="font-serif text-2xl text-brand-brass">
+                      {step.title}
+                    </span>
+                    <span className="block h-[2px] w-10 rounded-full bg-brand-gold" />
+                    <p className="max-w-sm text-base leading-relaxed text-muted">
+                      {step.text}
+                    </p>
+                  </div>
+                </li>
+              );
+            })}
           </ol>
         </Container>
       </section>
 
-      {/* Values */}
-      <section className="bg-cream py-24">
+      {/* Valori, in blocchi editoriali */}
+      <section className="py-24 sm:py-32">
         <Container>
-          <SectionTitle
-            title={t("valuesTitle")}
-            align="center"
-            className="mx-auto mb-14"
-          />
+          <div className="mb-16 flex flex-col items-center gap-3 text-center">
+            <h2 className="font-serif text-balance text-3xl leading-tight text-ink sm:text-4xl md:text-5xl">
+              {t("valuesTitle")}
+            </h2>
+            <OrnamentDivider variant="olive" className="mt-2 w-full max-w-md" />
+          </div>
           <div className="grid gap-8 md:grid-cols-3">
-            {values.map((v) => (
+            {values.map((v, idx) => (
               <article
                 key={v.title}
-                className="rounded-card bg-white p-10"
+                className="rounded-card bg-paper p-10 shadow-paper"
               >
-                <h3 className="font-serif text-2xl text-ink">
+                <span className="font-script text-3xl text-brand-brass">
+                  {String(idx + 1).padStart(2, "0")}
+                </span>
+                <h3 className="mt-3 font-serif text-2xl leading-tight text-ink">
                   {v.title}
                 </h3>
-                <span className="mt-3 block h-[2px] w-10 rounded-full bg-brand-gold" />
-                <p className="mt-5 text-sm leading-relaxed text-muted">
+                <p className="mt-5 text-base leading-relaxed text-muted">
                   {v.text}
                 </p>
               </article>
@@ -99,17 +146,16 @@ export default async function StoryPage({
         </Container>
       </section>
 
-      {/* Family image */}
-      <section className="py-24">
-        <Container>
-          <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-card">
-            <Image
-              src="/images/hero/story.svg"
-              alt="Famiglia Bazzani — tre generazioni"
-              fill
-              sizes="100vw"
-              className="object-cover"
-            />
+      {/* Firma di chiusura */}
+      <section className="bg-lake-deep py-24 text-center text-white">
+        <Container size="narrow">
+          <p className="font-serif text-2xl italic leading-snug sm:text-3xl">
+            {t("intro")}
+          </p>
+          <div className="mt-10">
+            <Signature size="lg" tone="white">
+              {tCommon("signature")}
+            </Signature>
           </div>
         </Container>
       </section>

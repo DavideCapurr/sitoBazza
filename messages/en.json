@@ -1,6 +1,6 @@
 {
   "common": {
-    "bookNow": "Book now",
+    "bookNow": "Book your stay",
     "bookCta": "Check availability",
     "learnMore": "Learn more",
     "discover": "Discover",
@@ -16,9 +16,11 @@
     "brandFull": "Hotel Restaurant Conca d'Oro",
     "tagline": "Salò, Lake Garda",
     "viewAllRooms": "See all rooms",
-    "viewGallery": "Explore the gallery",
+    "viewGallery": "Browse our album",
     "readStory": "Read our story",
-    "getDirections": "Get directions"
+    "getDirections": "Get directions",
+    "signature": "The Bazzani family",
+    "since": "Since 1952"
   },
   "nav": {
     "home": "Home",
@@ -29,51 +31,56 @@
     "contact": "Contact"
   },
   "home": {
-    "heroEyebrow": "Since 1952 — The Bazzani Family",
-    "heroTitle": "Three generations of hospitality on Lake Garda",
-    "heroSubtitle": "A few steps from the lake, among century-old palms and Brescian flavours, Hotel Conca d'Oro welcomes its guests like family.",
+    "heroEyebrow": "Since 1952",
+    "heroTitle": "Our home, on Lake Garda",
+    "heroSubtitle": "Three generations of the Bazzani family, the palms our grandfather planted, our grandmother's recipes, and the lake just a few steps away. We welcome you the way you welcome an old friend.",
+    "heroSignature": "— the Bazzani family",
+    "letterEyebrow": "A welcome letter",
+    "letterTitle": "When you arrive, you'll feel the lake right away",
+    "letterBody": "We're not a big hotel. We're a family that, for three generations, has opened the same door to those who choose to stop in Salò. Our grandfather planted the palms that will greet you on the terrace. Our grandmother left the recipes our chef still follows, comma for comma. We try to keep all of this alive — the smell of fresh bread in the morning, the lake's light through the olive trees, an unhurried conversation after dinner. Our home is your home.",
+    "letterClose": "We'll be waiting for you,",
     "introEyebrow": "Welcome",
     "introTitle": "A family home in Salò",
-    "introText": "Hotel Conca d'Oro was born from the Bazzani family's dream: a place where the pace slows down, the lake is always close, and every guest is treated as a long-awaited friend. Today, three generations later, we still take care of every detail with the same passion.",
-    "highlightsTitle": "An experience that feels like home",
+    "introText": "Hotel Conca d'Oro is not a company — it's the home the Bazzani family has been opening for three generations. A bowl of palms between the lake and the hills, where time slows down and every guest comes back as a friend.",
+    "highlightsTitle": "What you'll take home with you",
     "highlights": {
       "lake": {
-        "title": "A stone's throw from the lake",
-        "text": "From our garden you can reach the lakefront and the historic centre of Salò within a short walk."
+        "title": "The lake, a few steps away",
+        "text": "Open the window in the morning and you can hear the water. From our garden the lakefront and the old town of Salò are a slow walk away."
       },
       "restaurant": {
-        "title": "Traditional cuisine",
-        "text": "Our restaurant celebrates Brescian cooking with seasonal ingredients and family recipes."
+        "title": "Grandma's kitchen",
+        "text": "Family recipes, ingredients from farmers we know by name, lake fish and olive oil from the Riviera dei Limoni."
       },
       "park": {
-        "title": "Park and terrace",
-        "text": "A garden of palms and olive trees with a terrace for breakfasts outdoors and sunset aperitifs."
+        "title": "Grandfather's palms",
+        "text": "He planted them seventy years ago. Today they shade your breakfast and frame your sunset aperitif."
       },
       "family": {
-        "title": "Family-run",
-        "text": "Three generations of Bazzanis welcome guests with the same care as always."
+        "title": "Our door, our welcome",
+        "text": "We open it ourselves. We make sure the coffee is ready, we tell you where to go, we say goodbye by name."
       }
     },
     "roomsTeaserEyebrow": "The rooms",
-    "roomsTeaserTitle": "39 rooms, each with its own soul",
-    "roomsTeaserText": "From the cosy Classic rooms to the bright Lake View ones, every room is designed to feel like home.",
+    "roomsTeaserTitle": "39 rooms, each with its own story",
+    "roomsTeaserText": "We took care of them one by one, keeping the soul of the house. From the Classic rooms looking onto the garden to the Lake View ones, where water is the first thing you'll see in the morning.",
     "restaurantTeaserEyebrow": "The restaurant",
-    "restaurantTeaserTitle": "Flavours of Garda, Brescian soul",
-    "restaurantTeaserText": "Our chef reinterprets traditional classics with lake fish, Riviera olive oil and garden vegetables.",
-    "reviewsTitle": "What guests say",
+    "restaurantTeaserTitle": "Flavours of Garda, a Brescian heart",
+    "restaurantTeaserText": "Our dishes tell a precise geography: lake fish, the spits of Brescia, Riviera olive oil, vegetables from gardens a few kilometres away. Family recipes, not chef tricks.",
+    "reviewsTitle": "Voices of those who came back",
     "reviews": [
       {
-        "text": "Impeccable hospitality, a family that makes you feel at home. Breakfast on the terrace is unforgettable.",
+        "text": "They welcomed us like relatives. Breakfast on the terrace, beneath the palms, is an image we take home with us every year.",
         "author": "Laura G.",
         "source": "Tripadvisor"
       },
       {
-        "text": "Beautiful location, a few steps from the lake. The restaurant is a gem: authentic Brescian cuisine.",
+        "text": "The lake is right there, true, just a few steps away. But it's the kitchen we fell in love with: Brescian, simple, made with care.",
         "author": "Markus W.",
         "source": "Booking"
       },
       {
-        "text": "We come back every year. The garden with palms is a slice of paradise.",
+        "text": "We've been coming back for eight years. Our son calls Salò 'the hotel with the palms'. To us, it's home.",
         "author": "The Rossi Family",
         "source": "Google"
       }
@@ -133,44 +140,45 @@
   },
   "story": {
     "eyebrow": "The Bazzani Family",
-    "title": "A story that began in 1952",
-    "intro": "Three generations of hospitality in Salò. Hotel Conca d'Oro is not a company, it's a home the Bazzani family has built by welcoming guests from every corner of the world.",
-    "timelineTitle": "Milestones of our story",
+    "title": "Seventy years of mornings on the lake",
+    "intro": "Three generations, one home. Hotel Conca d'Oro is the story of a family that learned to host in the simplest way: by opening their own door.",
+    "pullQuote": "“When a guest arrives, first you offer them a coffee. Then we'll see.” — Grandfather Carlo",
+    "timelineTitle": "The family album",
     "timeline": [
       {
         "year": "1952",
-        "title": "The beginning",
-        "text": "The Bazzani grandparents open a small inn with restaurant a few steps from the lake."
+        "title": "An inn with nine tables",
+        "text": "Carlo and Maria Bazzani open a small inn a few steps from the lake. He welcomes the guests, she takes care of the kitchen. The palms will arrive a year later, from a friend's nursery."
       },
       {
         "year": "1978",
-        "title": "The expansion",
-        "text": "The second generation turns the inn into a hotel with 39 rooms and personally cares for the palm garden."
+        "title": "Thirty-nine doors to open",
+        "text": "The second generation expands the inn: 39 rooms and a terrace overlooking the palms grandfather planted. The kitchen stays grandmother's."
       },
       {
         "year": "2001",
-        "title": "The new millennium",
-        "text": "We renovate rooms and terrace while keeping the original soul of the historic building."
+        "title": "Restoration, not renovation",
+        "text": "We renovate rooms and bathrooms while keeping the original floors, grandfather's window frames, the courtyard light. Change without betraying."
       },
       {
         "year": "Today",
-        "title": "The third generation",
-        "text": "We carry on with the same care as always, adding attention to sustainability and local products."
+        "title": "The third generation opens for you",
+        "text": "We still take care of every detail personally. We open the shutters of all 39 rooms every morning. We turn off the terrace lights last every evening."
       }
     ],
-    "valuesTitle": "Our values",
+    "valuesTitle": "What we believe in",
     "values": [
       {
-        "title": "True hospitality",
-        "text": "We treat every guest like a family friend, from the first hello to the farewell."
+        "title": "You arrive as guests, you leave as friends",
+        "text": "We remember your name, how you take your coffee, what time you like breakfast. They're small things — they make all the difference."
       },
       {
-        "title": "Territory",
-        "text": "We choose suppliers from Garda and Valle Sabbia. We know their names, their stories."
+        "title": "Our Garda on your plate",
+        "text": "Our suppliers are fishermen, farmers, oil-millers who work just kilometres away. We know them by name — and you can taste it."
       },
       {
-        "title": "Slow time",
-        "text": "Here time flows at the rhythm of the lake: we are not in a hurry, and we invite you to not be either."
+        "title": "Lake time",
+        "text": "There's no hurry here. The bowl of palms shelters from the wind and from the clock. We invite you to slow down with us."
       }
     ]
   },
