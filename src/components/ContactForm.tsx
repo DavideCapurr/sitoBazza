@@ -19,12 +19,12 @@ export function ContactForm({ to }: { to: string }) {
   }
 
   const inputBase =
-    "w-full rounded-md border border-[--color-line] bg-white px-4 py-3 text-sm text-[--color-ink] placeholder:text-[--color-muted] focus:border-[--color-brand-gold] focus:outline-none";
+    "w-full rounded-md border border-line bg-white px-4 py-3 text-sm text-ink placeholder:text-muted focus:border-brand-gold focus:outline-none";
 
   return (
     <form onSubmit={onSubmit} className="grid gap-5">
       <div>
-        <label htmlFor="cf-name" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-[--color-muted]">
+        <label htmlFor="cf-name" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-muted">
           {t("nameLabel")}
         </label>
         <input
@@ -37,7 +37,7 @@ export function ContactForm({ to }: { to: string }) {
         />
       </div>
       <div>
-        <label htmlFor="cf-email" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-[--color-muted]">
+        <label htmlFor="cf-email" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-muted">
           {t("emailLabel")}
         </label>
         <input
@@ -50,7 +50,7 @@ export function ContactForm({ to }: { to: string }) {
         />
       </div>
       <div>
-        <label htmlFor="cf-message" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-[--color-muted]">
+        <label htmlFor="cf-message" className="mb-1.5 block text-xs font-medium uppercase tracking-[0.18em] text-muted">
           {t("messageLabel")}
         </label>
         <textarea
@@ -64,7 +64,7 @@ export function ContactForm({ to }: { to: string }) {
       </div>
       <button
         type="submit"
-        className="mt-2 inline-flex items-center justify-center gap-2 self-start rounded-full bg-[--color-brand-gold] px-7 py-3 text-sm font-medium text-white transition-colors hover:bg-[--color-brand-brass]"
+        className="mt-2 inline-flex items-center justify-center gap-2 self-start rounded-full bg-brand-gold px-7 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-brass"
       >
         {t("submit")}
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>

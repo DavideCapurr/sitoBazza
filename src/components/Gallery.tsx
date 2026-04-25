@@ -34,8 +34,8 @@ export function Gallery({
           className={clsx(
             "rounded-full border px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] transition-colors",
             active === "all"
-              ? "border-[--color-brand-gold] bg-[--color-brand-gold] text-white"
-              : "border-[--color-line] bg-white text-[--color-muted] hover:border-[--color-brand-gold] hover:text-[--color-brand-brass]",
+              ? "border-brand-gold bg-brand-gold text-white"
+              : "border-line bg-white text-muted hover:border-brand-gold hover:text-brand-brass",
           )}
         >
           {categories.find((c) => c.key === "all")?.label ?? "All"}
@@ -50,8 +50,8 @@ export function Gallery({
               className={clsx(
                 "rounded-full border px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] transition-colors",
                 active === c.key
-                  ? "border-[--color-brand-gold] bg-[--color-brand-gold] text-white"
-                  : "border-[--color-line] bg-white text-[--color-muted] hover:border-[--color-brand-gold] hover:text-[--color-brand-brass]",
+                  ? "border-brand-gold bg-brand-gold text-white"
+                  : "border-line bg-white text-muted hover:border-brand-gold hover:text-brand-brass",
               )}
             >
               {c.label}
@@ -66,7 +66,7 @@ export function Gallery({
             type="button"
             onClick={() => setLightboxIndex(idx)}
             className={clsx(
-              "group relative overflow-hidden rounded-xl bg-[--color-line]",
+              "group relative overflow-hidden rounded-xl bg-line",
               item.span === "tall" && "row-span-2 aspect-[3/4]",
               item.span === "wide" && "col-span-2 aspect-[16/10]",
               (!item.span || item.span === "square") && "aspect-square",

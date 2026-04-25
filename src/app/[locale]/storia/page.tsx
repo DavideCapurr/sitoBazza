@@ -51,19 +51,19 @@ export default async function StoryPage({
             align="center"
             className="mx-auto mb-16"
           />
-          <ol className="relative space-y-12 border-l border-[--color-line] pl-8 sm:pl-12">
+          <ol className="relative space-y-12 border-l border-line pl-8 sm:pl-12">
             {timeline.map((step) => (
               <li key={step.year} className="relative">
-                <span className="absolute -left-[37px] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-[--color-brand-gold] sm:-left-[49px]">
+                <span className="absolute -left-[37px] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-brand-gold sm:-left-[49px]">
                   <span className="h-2 w-2 rounded-full bg-white" />
                 </span>
-                <p className="font-serif text-3xl text-[--color-brand-brass]">
+                <p className="font-serif text-3xl text-brand-brass">
                   {step.year}
                 </p>
-                <h3 className="mt-2 font-serif text-2xl text-[--color-ink]">
+                <h3 className="mt-2 font-serif text-2xl text-ink">
                   {step.title}
                 </h3>
-                <p className="mt-3 text-base leading-relaxed text-[--color-muted]">
+                <p className="mt-3 text-base leading-relaxed text-muted">
                   {step.text}
                 </p>
               </li>
@@ -73,7 +73,7 @@ export default async function StoryPage({
       </section>
 
       {/* Values */}
-      <section className="bg-[--color-cream] py-24">
+      <section className="bg-cream py-24">
         <Container>
           <SectionTitle
             title={t("valuesTitle")}
@@ -84,13 +84,13 @@ export default async function StoryPage({
             {values.map((v) => (
               <article
                 key={v.title}
-                className="rounded-[--radius-card] bg-white p-10"
+                className="rounded-card bg-white p-10"
               >
-                <h3 className="font-serif text-2xl text-[--color-ink]">
+                <h3 className="font-serif text-2xl text-ink">
                   {v.title}
                 </h3>
-                <span className="mt-3 block h-[2px] w-10 rounded-full bg-[--color-brand-gold]" />
-                <p className="mt-5 text-sm leading-relaxed text-[--color-muted]">
+                <span className="mt-3 block h-[2px] w-10 rounded-full bg-brand-gold" />
+                <p className="mt-5 text-sm leading-relaxed text-muted">
                   {v.text}
                 </p>
               </article>
@@ -102,7 +102,7 @@ export default async function StoryPage({
       {/* Family image */}
       <section className="py-24">
         <Container>
-          <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-[--radius-card]">
+          <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-card">
             <Image
               src="/images/hero/story.svg"
               alt="Famiglia Bazzani — tre generazioni"

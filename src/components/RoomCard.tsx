@@ -24,7 +24,7 @@ export function RoomCard({
   return (
     <article
       className={clsx(
-        "group relative overflow-hidden rounded-[--radius-card] bg-white lift",
+        "group relative overflow-hidden rounded-card bg-white lift",
         size === "large" ? "flex flex-col md:flex-row" : "flex flex-col",
       )}
     >
@@ -50,18 +50,18 @@ export function RoomCard({
           size === "large" && "md:w-1/2 md:p-10 md:justify-center",
         )}
       >
-        <h3 className="font-serif text-2xl text-[--color-ink] md:text-3xl">
+        <h3 className="font-serif text-2xl text-ink md:text-3xl">
           {name}
         </h3>
         <span className="gold-rule" />
-        <p className="text-sm leading-relaxed text-[--color-muted] md:text-base">
+        <p className="text-sm leading-relaxed text-muted md:text-base">
           {description}
         </p>
         {features && features.length > 0 && (
-          <ul className="mt-2 grid grid-cols-1 gap-1.5 text-sm text-[--color-ink] sm:grid-cols-2">
+          <ul className="mt-2 grid grid-cols-1 gap-1.5 text-sm text-ink sm:grid-cols-2">
             {features.map((f) => (
               <li key={f} className="flex items-start gap-2">
-                <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[--color-brand-gold]" />
+                <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-brand-gold" />
                 <span>{f}</span>
               </li>
             ))}
@@ -69,7 +69,7 @@ export function RoomCard({
         )}
         <Link
           href={href}
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-[--color-brand-brass] transition-colors hover:text-[--color-brand-deep]"
+          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-brand-brass transition-colors hover:text-brand-deep"
         >
           {cta}
           <svg

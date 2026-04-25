@@ -46,7 +46,7 @@ export default async function RestaurantPage({
               title={t("conceptTitle")}
               intro={t("conceptText")}
             />
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[--radius-card] lift">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-card lift">
               <Image
                 src="/images/gallery/dish-1.svg"
                 alt="Piatto tipico"
@@ -60,19 +60,19 @@ export default async function RestaurantPage({
       </section>
 
       {/* Menu */}
-      <section className="bg-[--color-cream] py-24">
+      <section className="bg-cream py-24">
         <Container size="narrow" className="text-center">
           <SectionTitle
             title={t("menuTitle")}
             align="center"
             className="mx-auto mb-6"
           />
-          <p className="mx-auto max-w-xl text-base leading-relaxed text-[--color-muted]">
+          <p className="mx-auto max-w-xl text-base leading-relaxed text-muted">
             {t("menuText")}
           </p>
           <a
             href="#"
-            className="mt-10 inline-flex items-center gap-2 rounded-full border border-[--color-brand-gold] px-6 py-3 text-sm font-medium text-[--color-brand-brass] transition-colors hover:bg-[--color-brand-gold] hover:text-white"
+            className="mt-10 inline-flex items-center gap-2 rounded-full border border-brand-gold px-6 py-3 text-sm font-medium text-brand-brass transition-colors hover:bg-brand-gold hover:text-white"
           >
             {t("menuCta")} →
           </a>
@@ -95,12 +95,12 @@ export default async function RestaurantPage({
             ].map(({ Icon, label }) => (
               <li
                 key={label}
-                className="flex flex-col items-center gap-3 rounded-[--radius-card] border border-[--color-line] bg-white p-8 text-center"
+                className="flex flex-col items-center gap-3 rounded-card border border-line bg-white p-8 text-center"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cream text-brand-brass">
                   <Icon size={20} aria-hidden />
                 </span>
-                <span className="text-sm font-medium text-[--color-ink]">
+                <span className="text-sm font-medium text-ink">
                   {label}
                 </span>
               </li>

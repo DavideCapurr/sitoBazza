@@ -75,7 +75,7 @@ export default async function HotelPage({
       </section>
 
       {/* Services */}
-      <section className="bg-[--color-cream] py-24">
+      <section className="bg-cream py-24">
         <Container>
           <SectionTitle
             title={t("servicesTitle")}
@@ -88,12 +88,12 @@ export default async function HotelPage({
               return (
                 <li
                   key={s}
-                  className="flex items-center gap-4 rounded-[--radius-card] bg-white px-6 py-5"
+                  className="flex items-center gap-4 rounded-card bg-white px-6 py-5"
                 >
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <Icon size={18} aria-hidden />
                   </span>
-                  <span className="text-sm text-[--color-ink]">{s}</span>
+                  <span className="text-sm text-ink">{s}</span>
                 </li>
               );
             })}
@@ -109,7 +109,7 @@ export default async function HotelPage({
             align="center"
             className="mx-auto mb-6"
           />
-          <p className="mx-auto max-w-xl text-base leading-relaxed text-[--color-muted]">
+          <p className="mx-auto max-w-xl text-base leading-relaxed text-muted">
             {t("policy")}
           </p>
           <div className="mt-10 flex justify-center">

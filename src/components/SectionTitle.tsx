@@ -19,8 +19,8 @@ export function SectionTitle({
   as?: "h1" | "h2" | "h3";
 }) {
   const isCenter = align === "center";
-  const textColor = tone === "dark" ? "text-white" : "text-[--color-ink]";
-  const introColor = tone === "dark" ? "text-white/80" : "text-[--color-muted]";
+  const textColor = tone === "dark" ? "text-white" : "text-ink";
+  const introColor = tone === "dark" ? "text-white/80" : "text-muted";
 
   return (
     <div

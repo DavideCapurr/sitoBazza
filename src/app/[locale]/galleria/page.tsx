@@ -23,7 +23,6 @@ export default async function GalleryPage({
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "gallery" });
-  const tCommon = await getTranslations({ locale, namespace: "common" });
 
   const items: GalleryItem[] = [
     { src: "/images/hero/hotel.svg", alt: "Esterno hotel", category: "hotel", span: "wide" },
@@ -40,8 +39,9 @@ export default async function GalleryPage({
     { src: "/images/hero/contact.svg", alt: "Salò vista lago", category: "park" },
   ];
 
+  const allLabels: Record<string, string> = { it: "Tutto", en: "All", de: "Alle" };
   const categories = [
-    { key: "all", label: tCommon("discover") },
+    { key: "all", label: allLabels[locale] ?? "All" },
     { key: "hotel", label: t("categories.hotel") },
     { key: "rooms", label: t("categories.rooms") },
     { key: "restaurant", label: t("categories.restaurant") },

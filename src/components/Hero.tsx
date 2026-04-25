@@ -46,7 +46,7 @@ export function Hero({
       <div className="relative z-10 mx-auto w-full max-w-6xl px-5 sm:px-8">
         <div className="max-w-3xl">
           {eyebrow && (
-            <p className="mb-6 text-xs font-medium uppercase tracking-[0.3em] text-[--color-brand-gold]">
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.3em] text-brand-gold">
               {eyebrow}
             </p>
           )}

@@ -42,11 +42,11 @@ export function BookNowButton({
   } as const;
   const variants = {
     primary:
-      "bg-[--color-brand-gold] text-white hover:bg-[--color-brand-brass] shadow-[0_12px_30px_-12px_rgba(184,137,75,0.55)]",
+      "bg-brand-gold text-white hover:bg-brand-brass shadow-[0_12px_30px_-12px_rgba(184,137,75,0.55)]",
     ghost:
-      "border border-[--color-brand-gold] text-[--color-brand-brass] hover:bg-[--color-brand-gold] hover:text-white",
+      "border border-brand-gold text-brand-brass hover:bg-brand-gold hover:text-white",
     inverse:
-      "bg-white/10 text-white border border-white/30 backdrop-blur-sm hover:bg-white hover:text-[--color-brand-brass]",
+      "bg-white/10 text-white border border-white/30 backdrop-blur-sm hover:bg-white hover:text-brand-brass",
   } as const;
 
   return (

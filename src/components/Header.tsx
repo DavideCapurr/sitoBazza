@@ -36,7 +36,7 @@ export function Header() {
       className={clsx(
         "fixed inset-x-0 top-0 z-40 transition-all duration-300",
         scrolled || menuOpen
-          ? "bg-[--color-cream-soft]/95 backdrop-blur-md shadow-sm"
+          ? "bg-cream-soft/95 backdrop-blur-md shadow-sm"
           : "bg-transparent",
       )}
     >
@@ -57,7 +57,7 @@ export function Header() {
             aria-label={menuOpen ? t("closeMenu") : t("openMenu")}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((v) => !v)}
-            className="lg:hidden inline-flex h-10 w-10 flex-col items-center justify-center gap-1.5 text-[--color-ink]"
+            className="lg:hidden inline-flex h-10 w-10 flex-col items-center justify-center gap-1.5 text-ink"
           >
             <span
               className={clsx(
@@ -90,7 +90,7 @@ export function Header() {
             : "max-h-0 opacity-0",
         )}
       >
-        <div className="border-t border-[--color-line] bg-[--color-cream-soft] px-5 py-10 sm:px-8">
+        <div className="border-t border-line bg-cream-soft px-5 py-10 sm:px-8">
           <Nav
             orientation="vertical"
             onNavigate={() => setMenuOpen(false)}

@@ -55,43 +55,43 @@ export default async function ContactPage({
               />
               <ul className="space-y-6 text-base">
                 <li className="flex items-start gap-4">
-                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <MapPin size={18} aria-hidden />
                   </span>
                   <div>
-                    <p className="text-xs uppercase tracking-[0.2em] text-[--color-muted]">
+                    <p className="text-xs uppercase tracking-[0.2em] text-muted">
                       Hotel
                     </p>
-                    <p className="mt-1 text-[--color-ink]">{tCommon("address")}</p>
+                    <p className="mt-1 text-ink">{tCommon("address")}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <Phone size={18} aria-hidden />
                   </span>
                   <div>
-                    <p className="text-xs uppercase tracking-[0.2em] text-[--color-muted]">
+                    <p className="text-xs uppercase tracking-[0.2em] text-muted">
                       Tel.
                     </p>
                     <a
                       href={`tel:${phoneClean}`}
-                      className="mt-1 block text-[--color-ink] hover:text-[--color-brand-brass]"
+                      className="mt-1 block text-ink hover:text-brand-brass"
                     >
                       {tCommon("phone")}
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <Mail size={18} aria-hidden />
                   </span>
                   <div>
-                    <p className="text-xs uppercase tracking-[0.2em] text-[--color-muted]">
+                    <p className="text-xs uppercase tracking-[0.2em] text-muted">
                       Email
                     </p>
                     <a
                       href={`mailto:${tCommon("email")}`}
-                      className="mt-1 block text-[--color-ink] hover:text-[--color-brand-brass]"
+                      className="mt-1 block text-ink hover:text-brand-brass"
                     >
                       {tCommon("email")}
                     </a>
@@ -104,18 +104,18 @@ export default async function ContactPage({
                   href="https://www.google.com/maps/search/?api=1&query=Hotel+Conca+d%27Oro+Salo"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-[--color-brand-gold] px-6 py-3 text-sm font-medium text-[--color-brand-brass] transition-colors hover:bg-[--color-brand-gold] hover:text-white"
+                  className="inline-flex items-center gap-2 rounded-full border border-brand-gold px-6 py-3 text-sm font-medium text-brand-brass transition-colors hover:bg-brand-gold hover:text-white"
                 >
                   {tCommon("getDirections")} →
                 </a>
               </div>
             </div>
 
-            <div className="rounded-[--radius-card] border border-[--color-line] bg-white p-8 lg:p-10">
-              <h2 className="font-serif text-2xl text-[--color-ink]">
+            <div className="rounded-card border border-line bg-white p-8 lg:p-10">
+              <h2 className="font-serif text-2xl text-ink">
                 {t("formTitle")}
               </h2>
-              <p className="mt-3 text-sm text-[--color-muted]">
+              <p className="mt-3 text-sm text-muted">
                 {t("formIntro")}
               </p>
               <div className="mt-8">
@@ -127,7 +127,7 @@ export default async function ContactPage({
       </section>
 
       {/* Directions */}
-      <section className="bg-[--color-cream] py-24">
+      <section className="bg-cream py-24">
         <Container>
           <SectionTitle
             title={t("directionsTitle")}
@@ -140,15 +140,15 @@ export default async function ContactPage({
               return (
                 <li
                   key={d.mode}
-                  className="flex flex-col gap-4 rounded-[--radius-card] bg-white p-8"
+                  className="flex flex-col gap-4 rounded-card bg-white p-8"
                 >
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <Icon size={20} aria-hidden />
                   </span>
-                  <h3 className="font-serif text-xl text-[--color-ink]">
+                  <h3 className="font-serif text-xl text-ink">
                     {d.mode}
                   </h3>
-                  <p className="text-sm leading-relaxed text-[--color-muted]">
+                  <p className="text-sm leading-relaxed text-muted">
                     {d.text}
                   </p>
                 </li>
@@ -166,7 +166,7 @@ export default async function ContactPage({
             align="center"
             className="mx-auto mb-10"
           />
-          <div className="overflow-hidden rounded-[--radius-card] border border-[--color-line]">
+          <div className="overflow-hidden rounded-card border border-line">
             <iframe
               title={t("mapTitle")}
               src="https://www.google.com/maps?q=Hotel+Conca+d%27Oro+Salo&output=embed"

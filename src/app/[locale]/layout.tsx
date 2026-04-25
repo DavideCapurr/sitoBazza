@@ -96,7 +96,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={typedLocale} className={`${serif.variable} ${sans.variable}`}>
-      <body className="bg-[--color-cream-soft] text-[--color-ink] antialiased">
+      <body className="bg-cream-soft text-ink antialiased">
         <NextIntlClientProvider messages={messages} locale={typedLocale}>
           <HotelJsonLd locale={typedLocale} />
           <a

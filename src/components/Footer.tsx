@@ -12,14 +12,14 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mt-24 bg-[--color-ink] text-white/80">
+    <footer className="mt-24 bg-ink text-white/80">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
         <div className="flex flex-col gap-6">
           <Logo tone="dark" />
           <p className="max-w-sm text-sm leading-relaxed text-white/70">
             {tFooter("tagline")}
           </p>
-          <BookNowButton variant="ghost" className="self-start !border-white/40 !text-white hover:!bg-white hover:!text-[--color-brand-brass]" />
+          <BookNowButton variant="ghost" className="self-start !border-white/40 !text-white hover:!bg-white hover:!text-brand-brass" />
         </div>
 
         <div>
@@ -28,17 +28,17 @@ export function Footer() {
           </h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-3">
-              <MapPin size={16} className="mt-0.5 shrink-0 text-[--color-brand-gold]" aria-hidden />
+              <MapPin size={16} className="mt-0.5 shrink-0 text-brand-gold" aria-hidden />
               <span>{t("address")}</span>
             </li>
             <li className="flex items-start gap-3">
-              <Phone size={16} className="mt-0.5 shrink-0 text-[--color-brand-gold]" aria-hidden />
+              <Phone size={16} className="mt-0.5 shrink-0 text-brand-gold" aria-hidden />
               <a href={`tel:${t("phone").replace(/\s+/g, "")}`} className="hover:text-white">
                 {t("phone")}
               </a>
             </li>
             <li className="flex items-start gap-3">
-              <Mail size={16} className="mt-0.5 shrink-0 text-[--color-brand-gold]" aria-hidden />
+              <Mail size={16} className="mt-0.5 shrink-0 text-brand-gold" aria-hidden />
               <a href={`mailto:${t("email")}`} className="hover:text-white">
                 {t("email")}
               </a>
@@ -51,7 +51,7 @@ export function Footer() {
             {tFooter("hoursTitle")}
           </h3>
           <p className="flex items-start gap-3 text-sm">
-            <Clock size={16} className="mt-0.5 shrink-0 text-[--color-brand-gold]" aria-hidden />
+            <Clock size={16} className="mt-0.5 shrink-0 text-brand-gold" aria-hidden />
             <span>{t("openingHours")}</span>
           </p>
         </div>

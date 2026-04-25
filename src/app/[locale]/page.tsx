@@ -68,7 +68,7 @@ export default async function HomePage({
               intro={t("introText")}
               as="h2"
             />
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[--radius-card] lift">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-card lift">
               <Image
                 src="/images/hero/hotel.svg"
                 alt="Hotel Conca d'Oro, facciata"
@@ -82,7 +82,7 @@ export default async function HomePage({
       </section>
 
       {/* Highlights */}
-      <section className="bg-[--color-cream] py-24">
+      <section className="bg-cream py-24">
         <Container>
           <SectionTitle
             title={t("highlightsTitle")}
@@ -95,15 +95,15 @@ export default async function HomePage({
               return (
                 <article
                   key={key}
-                  className="group flex flex-col items-start gap-4 rounded-[--radius-card] bg-white p-8 transition-shadow duration-300 hover:shadow-[--shadow-warm]"
+                  className="group flex flex-col items-start gap-4 rounded-card bg-white p-8 transition-shadow duration-300 hover:shadow-warm"
                 >
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[--color-cream] text-[--color-brand-brass]">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cream text-brand-brass">
                     <Icon size={22} aria-hidden />
                   </span>
-                  <h3 className="font-serif text-xl text-[--color-ink]">
+                  <h3 className="font-serif text-xl text-ink">
                     {t(`highlights.${key}.title`)}
                   </h3>
-                  <p className="text-sm leading-relaxed text-[--color-muted]">
+                  <p className="text-sm leading-relaxed text-muted">
                     {t(`highlights.${key}.text`)}
                   </p>
                 </article>
@@ -124,7 +124,7 @@ export default async function HomePage({
             />
             <Link
               href="/hotel"
-              className="self-start text-sm font-medium tracking-wide text-[--color-brand-brass] hover:text-[--color-brand-deep]"
+              className="self-start text-sm font-medium tracking-wide text-brand-brass hover:text-brand-deep"
             >
               {tCommon("viewAllRooms")} →
             </Link>
@@ -146,10 +146,10 @@ export default async function HomePage({
       </section>
 
       {/* Restaurant teaser */}
-      <section className="bg-[--color-ink] py-24 text-white sm:py-32">
+      <section className="bg-ink py-24 text-white sm:py-32">
         <Container>
           <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-[--radius-card]">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-card">
               <Image
                 src="/images/hero/restaurant.svg"
                 alt="Cucina bresciana — piatto"
@@ -168,7 +168,7 @@ export default async function HomePage({
               <div className="mt-8">
                 <Link
                   href="/ristorante"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white hover:text-[--color-brand-brass]"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white hover:text-brand-brass"
                 >
                   {tCommon("learnMore")} →
                 </Link>
@@ -190,13 +190,13 @@ export default async function HomePage({
             {reviews.map((r, i) => (
               <figure
                 key={i}
-                className="flex flex-col gap-5 rounded-[--radius-card] border border-[--color-line] bg-white p-8"
+                className="flex flex-col gap-5 rounded-card border border-line bg-white p-8"
               >
-                <span className="text-3xl text-[--color-brand-gold]">“</span>
-                <blockquote className="font-serif text-lg leading-snug text-[--color-ink]">
+                <span className="text-3xl text-brand-gold">“</span>
+                <blockquote className="font-serif text-lg leading-snug text-ink">
                   {r.text}
                 </blockquote>
-                <figcaption className="mt-auto text-xs uppercase tracking-[0.2em] text-[--color-muted]">
+                <figcaption className="mt-auto text-xs uppercase tracking-[0.2em] text-muted">
                   {r.author} · {r.source}
                 </figcaption>
               </figure>

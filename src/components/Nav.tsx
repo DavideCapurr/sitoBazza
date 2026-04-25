@@ -43,13 +43,13 @@ export function Nav({
                     ? "text-white"
                     : "text-white/70 hover:text-white"
                   : active
-                    ? "text-[--color-brand-brass]"
-                    : "text-[--color-ink] hover:text-[--color-brand-brass]",
+                    ? "text-brand-brass"
+                    : "text-ink hover:text-brand-brass",
               )}
             >
               {t(item.key)}
               {active && orientation === "horizontal" && (
-                <span className="absolute -bottom-1 left-0 right-0 mx-auto h-px w-6 bg-[--color-brand-gold]" />
+                <span className="absolute -bottom-1 left-0 right-0 mx-auto h-px w-6 bg-brand-gold" />
               )}
             </Link>
           </li>

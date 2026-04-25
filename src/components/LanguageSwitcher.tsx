@@ -30,7 +30,7 @@ export function LanguageSwitcher({ tone = "light" }: { tone?: "light" | "dark" }
   const color =
     tone === "dark"
       ? "text-white/90 hover:text-white"
-      : "text-[--color-ink] hover:text-[--color-brand-brass]";
+      : "text-ink hover:text-brand-brass";
 
   return (
     <div ref={ref} className="relative">
@@ -60,7 +60,7 @@ export function LanguageSwitcher({ tone = "light" }: { tone?: "light" | "dark" }
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 top-full z-50 mt-2 min-w-[10rem] overflow-hidden rounded-xl border border-[--color-line] bg-white shadow-lg"
+          className="absolute right-0 top-full z-50 mt-2 min-w-[10rem] overflow-hidden rounded-xl border border-line bg-white shadow-lg"
         >
           {routing.locales.map((l) => (
             <li key={l}>
@@ -75,12 +75,12 @@ export function LanguageSwitcher({ tone = "light" }: { tone?: "light" | "dark" }
                 className={clsx(
                   "flex w-full items-center justify-between px-4 py-2.5 text-sm transition-colors",
                   l === locale
-                    ? "bg-[--color-cream] text-[--color-brand-brass]"
-                    : "hover:bg-[--color-cream-soft] text-[--color-ink]",
+                    ? "bg-cream text-brand-brass"
+                    : "hover:bg-cream-soft text-ink",
                 )}
               >
                 <span>{FULL[l]}</span>
-                <span className="text-xs tracking-[0.2em] text-[--color-muted]">
+                <span className="text-xs tracking-[0.2em] text-muted">
                   {LABELS[l]}
                 </span>
               </button>
