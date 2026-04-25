@@ -1,6 +1,6 @@
 {
   "common": {
-    "bookNow": "Ihren Aufenthalt buchen",
+    "bookNow": "Jetzt buchen",
     "bookCta": "Verfügbarkeit prüfen",
     "learnMore": "Mehr erfahren",
     "discover": "Entdecken",
@@ -16,11 +16,11 @@
     "brandFull": "Hotel Restaurant Conca d'Oro",
     "tagline": "Salò, Gardasee",
     "viewAllRooms": "Alle Zimmer ansehen",
-    "viewGallery": "Unser Album durchblättern",
+    "viewGallery": "Galerie durchblättern",
     "readStory": "Unsere Geschichte",
     "getDirections": "Anfahrt",
     "signature": "Die Familie Bazzani",
-    "since": "Seit 1952"
+    "since": "Drei Generationen"
   },
   "nav": {
     "home": "Startseite",
@@ -31,56 +31,56 @@
     "contact": "Kontakt"
   },
   "home": {
-    "heroEyebrow": "Seit 1952",
-    "heroTitle": "Unser Zuhause am Gardasee",
-    "heroSubtitle": "Drei Generationen der Familie Bazzani, die Palmen, die der Großvater pflanzte, die Rezepte der Großmutter und der See nur wenige Schritte entfernt. Wir empfangen Sie wie einen alten Freund.",
+    "heroEyebrow": "Salò — Gardasee",
+    "heroTitle": "Mit Blick auf den Golf von Salò, seit drei Generationen",
+    "heroSubtitle": "Das Hotel Conca d'Oro liegt direkt am Golf von Salò und empfängt seine Gäste mit Leidenschaft und Höflichkeit. Die Familie Bazzani heißt Sie herzlich willkommen und macht Ihren Aufenthalt zu einem einzigartigen Erlebnis.",
     "heroSignature": "— die Familie Bazzani",
-    "letterEyebrow": "Ein Willkommensbrief",
-    "letterTitle": "Wenn Sie ankommen, spüren Sie den See sofort",
-    "letterBody": "Wir sind kein großes Hotel. Wir sind eine Familie, die seit drei Generationen dieselbe Tür für die Gäste öffnet, die in Salò Halt machen. Unser Großvater pflanzte die Palmen, die Sie auf der Terrasse begrüßen werden. Unsere Großmutter hinterließ in der Küche die Rezepte, denen unser Koch noch heute Komma für Komma folgt. Wir versuchen, all das lebendig zu halten — den Duft frischen Brotes am Morgen, das Licht des Sees zwischen den Olivenbäumen, ein langsames Gespräch nach dem Essen. Unser Zuhause ist Ihr Zuhause.",
-    "letterClose": "Wir warten auf Sie,",
-    "introEyebrow": "Willkommen",
-    "introTitle": "Ein familiäres Zuhause in Salò",
-    "introText": "Das Hotel Conca d'Oro ist kein Unternehmen — es ist das Zuhause, das die Familie Bazzani seit drei Generationen öffnet. Eine Schale aus Palmen zwischen See und Hügeln, wo die Zeit langsamer wird und jeder Gast als Freund zurückkehrt.",
-    "highlightsTitle": "Was Sie mit nach Hause nehmen",
+    "letterEyebrow": "Willkommen",
+    "letterTitle": "Die Gastfreundschaft einer Restaurantfamilie",
+    "letterBody": "Seit über fünfzig Jahren pflegt die Familie Bazzani die Spezialitäten der bresciansken Küche und empfängt ihre Gäste mit Leidenschaft und Höflichkeit, weitergegeben über drei Generationen von Gastronomen. Das Hotel Conca d'Oro liegt direkt am Golf von Salò, nur wenige Schritte vom See entfernt, in herrlicher Lage, mit einer großen Terrasse mit Palmen und umgeben von einem schönen Park.",
+    "letterClose": "Wir freuen uns auf Sie,",
+    "introEyebrow": "Das Hotel",
+    "introTitle": "Wenige Schritte vom See, eingebettet im Park",
+    "introText": "Die Zimmer sind gemütlich und gepflegt, zwei Terrassen blicken auf den See, ein schöner Park mit Spielplatz für Kinder und ein großer kostenloser Parkplatz stehen unseren Gästen zur Verfügung. Unser Privatstrand befindet sich auf der anderen Straßenseite, mit Garten, Kiosk, Liegen und Sonnenschirmen sowie direktem Zugang zum Golf von Salò.",
+    "highlightsTitle": "Was Sie erwartet",
     "highlights": {
       "lake": {
-        "title": "Der See, nur wenige Schritte",
-        "text": "Öffnen Sie morgens das Fenster — Sie hören das Wasser. Von unserem Garten erreichen Sie die Seepromenade und die Altstadt von Salò in einem gemütlichen Spaziergang."
+        "title": "Mit Blick auf den Golf von Salò",
+        "text": "Das Hotel liegt am Golf von Salò, etwa fünf Gehminuten vom historischen Zentrum entfernt. Unser Privatstrand befindet sich auf der anderen Straßenseite, von dort beginnt die Seepromenade, die den gesamten Golf entlangführt."
       },
       "restaurant": {
-        "title": "Großmutters Küche",
-        "text": "Familienrezepte, Zutaten von Bauern, die wir mit Namen kennen, Seefisch und Olivenöl von der Riviera dei Limoni."
+        "title": "Bresciansker Küche, lange Tradition",
+        "text": "Seit über fünfzig Jahren bieten wir die Spezialitäten der bresciansken Küche, kombiniert mit der klassischen italienischen Küche, in Menüs, die geschickt von Chef Marco Bazzani und seinem qualifizierten Team zusammengestellt werden."
       },
       "park": {
-        "title": "Großvaters Palmen",
-        "text": "Er pflanzte sie vor siebzig Jahren. Heute spenden sie Schatten beim Frühstück und rahmen den Aperitif bei Sonnenuntergang."
+        "title": "Park, Terrassen und Strand",
+        "text": "Ein großer Park mit Palmen, zwei Panoramaterrassen über dem See, ein Spielplatz für Kinder, ein großer kostenloser Parkplatz und ein exklusiver Strand mit Kiosk, der bis spät in den Abend geöffnet ist."
       },
       "family": {
-        "title": "Unsere Tür, unser Empfang",
-        "text": "Wir öffnen sie selbst. Wir sorgen dafür, dass der Kaffee bereit ist, geben Tipps für den Tag und verabschieden Sie mit Namen."
+        "title": "Familiengeführt",
+        "text": "Qualität, Sorgfalt und Exzellenz bei der Produktauswahl und im Service werden durch die Leitung der Familie Bazzani gewährleistet. Augusto Bazzani koordiniert persönlich den Service im Speisesaal mit Höflichkeit und Aufmerksamkeit."
       }
     },
     "roomsTeaserEyebrow": "Die Zimmer",
-    "roomsTeaserTitle": "39 Zimmer, jedes mit seiner Geschichte",
-    "roomsTeaserText": "Wir haben sie eines nach dem anderen gepflegt und die Seele des Hauses bewahrt. Von den Classic-Zimmern zum Garten bis zu den Seeblick-Zimmern, in denen das Wasser das Erste ist, was Sie morgens sehen.",
+    "roomsTeaserTitle": "42 Zimmer, einige mit Seeblick",
+    "roomsTeaserText": "Das Hotel Conca d'Oro verfügt über 42 Zimmer, einige mit Balkon und Seeblick oder Parkblick. Alle Zimmer sind ausgestattet mit großem Bad mit Dusche und Föhn, LCD-Fernseher mit italienischen und ausländischen Sendern, Telefon und Safe.",
     "restaurantTeaserEyebrow": "Das Restaurant",
-    "restaurantTeaserTitle": "Aromen des Gardasees, bresciansker Herz",
-    "restaurantTeaserText": "Unsere Gerichte erzählen eine genaue Geografie: Seefisch, Brescianer Spieße, Olivenöl der Riviera, Gemüse aus Gärten wenige Kilometer entfernt. Familienrezepte, keine Kochtricks.",
-    "reviewsTitle": "Stimmen derer, die zurückgekommen sind",
+    "restaurantTeaserTitle": "Bresciansker Spezialitäten und klassische italienische Küche",
+    "restaurantTeaserText": "Traditionelle bresciansker Gerichte werden mit der klassischen italienischen Küche zu bedeutenden Menüs kombiniert, geschickt von Chef Marco Bazzani zusammengestellt. Die Küche ist überwiegend regional, mit Qualitätsprodukten der Saison.",
+    "reviewsTitle": "Stimmen unserer Gäste",
     "reviews": [
       {
-        "text": "Sie haben uns wie Verwandte empfangen. Frühstück auf der Terrasse unter den Palmen — ein Bild, das wir jedes Jahr mit nach Hause nehmen.",
+        "text": "Unvergleichliche Gastfreundschaft, eine Familie, die Sie sich zu Hause fühlen lässt. Frühstück auf der Terrasse — unvergesslich.",
         "author": "Laura G.",
         "source": "Tripadvisor"
       },
       {
-        "text": "Der See ist wirklich nur wenige Schritte entfernt. Aber in die Küche haben wir uns verliebt: bresciansker, einfach, mit Sorgfalt zubereitet.",
+        "text": "Wunderschöne Lage, nur wenige Schritte vom See. Das Restaurant ist ein Juwel: authentische bresciansker Küche.",
         "author": "Markus W.",
         "source": "Booking"
       },
       {
-        "text": "Wir kommen seit acht Jahren wieder. Unser Sohn nennt Salò 'das Hotel mit den Palmen'. Für uns ist es Zuhause.",
+        "text": "Wir kommen jedes Jahr wieder. Der Palmengarten und der Privatstrand sind ein Stück Paradies.",
         "author": "Familie Rossi",
         "source": "Google"
       }
@@ -89,108 +89,103 @@
   "rooms": {
     "eyebrow": "Hotel & Zimmer",
     "title": "Ein Aufenthalt zwischen See und Tradition",
-    "intro": "Unsere 39 Zimmer verteilen sich auf das historische Gebäude und den Flügel mit den offensten Blicken über den Gardasee. Natürliche Materialien, warme Stoffe und renovierte Bäder: alles für eine echte Erholung.",
+    "intro": "Die 42 Zimmer des Hotels Conca d'Oro sind gemütlich und gepflegt, einige mit Balkon und Seeblick oder Parkblick. Alle Zimmer verfügen über ein großes Bad mit Dusche und Föhn, einen LCD-Fernseher mit italienischen und ausländischen Sendern, Telefon und Safe.",
     "typesTitle": "Zimmertypen",
     "types": [
       {
         "name": "Classic",
-        "description": "Gemütliche Zimmer zum Park oder Innenhof, eingerichtet mit hellem Holz und neutralen Stoffen.",
-        "features": ["Doppel- oder zwei Einzelbetten", "Privates Bad mit Dusche", "Klimaanlage", "Kostenloses WLAN"]
+        "description": "Gemütliche, gepflegte Zimmer mit Blick auf den Park oder den Innenhof, mit allem Komfort.",
+        "features": ["Doppel- oder zwei Einzelbetten", "Bad mit Dusche und Föhn", "LCD-Fernseher mit italienischen und ausländischen Sendern", "Telefon und Safe", "Kostenloses WLAN"]
       },
       {
-        "name": "Superior",
-        "description": "Geräumiger, einige mit Balkon zum Park und zur Palmenterrasse.",
-        "features": ["Balkon mit Parkblick", "Sitzbereich mit Sesseln", "Bad mit Wanne oder Dusche", "Minibar"]
+        "name": "Parkblick",
+        "description": "Geräumiger, mit Balkon zum Park und zur palmenbestandenen Terrasse.",
+        "features": ["Balkon mit Parkblick", "Bad mit Dusche und Föhn", "LCD-Fernseher mit italienischen und ausländischen Sendern", "Telefon und Safe", "Kostenloses WLAN"]
       },
       {
         "name": "Seeblick",
-        "description": "Unsere hellsten Zimmer mit direktem Blick auf den Gardasee und Fenster zu den Bergen.",
-        "features": ["Panorama-Seeblick", "Privater Balkon", "Kingsize-Bett", "Exklusives Begrüßungsset"]
+        "description": "Zimmer mit Blick auf den See, mit privatem Balkon und Aussicht auf den Golf von Salò.",
+        "features": ["Balkon mit Seeblick", "Bad mit Dusche und Föhn", "LCD-Fernseher mit italienischen und ausländischen Sendern", "Telefon und Safe", "Kostenloses WLAN"]
       }
     ],
-    "servicesTitle": "Inklusive Leistungen",
+    "servicesTitle": "Leistungen und Ausstattung",
     "services": [
+      "42 gemütliche, gepflegte Zimmer",
+      "Zwei Panoramaterrassen über dem See",
+      "Privatstrand auf der anderen Straßenseite",
+      "Park mit Palmen und Kinderspielplatz",
+      "Großer kostenloser Parkplatz",
+      "Vier Säle für bis zu 600 Gäste",
       "Kostenloses WLAN im gesamten Hotel",
-      "Reservierte Parkplätze",
-      "Bresciansker Frühstücksbuffet",
-      "Terrasse und Garten mit Palmen",
-      "Hauseigenes Restaurant",
-      "Freundliche mehrsprachige Rezeption",
-      "Fahrräder auf Anfrage",
-      "Gepäckaufbewahrung"
+      "Freundliche mehrsprachige Rezeption"
     ],
     "policyTitle": "Check-in und Check-out",
-    "policy": "Check-in ab 14:00 Uhr, Check-out bis 11:00 Uhr. Bei späterer Ankunft kontaktieren Sie uns bitte — wir finden immer eine maßgeschneiderte Lösung."
+    "policy": "Check-in ab 14:00 Uhr, Check-out bis 11:00 Uhr. Bei späterer Ankunft kontaktieren Sie uns bitte — wir finden immer eine maßgeschneiderte Lösung für Sie."
   },
   "restaurant": {
     "eyebrow": "Das Restaurant",
-    "title": "Bresciansker Küche, jeden Tag",
-    "intro": "In unserem Restaurant bringen wir die Aromen des Territoriums auf den Tisch: von Seefisch über traditionelle Spieße bis hin zu Käse aus dem Valle Sabbia und nativem Olivenöl extra der Riviera dei Limoni.",
+    "title": "Bresciansker Küche, seit über fünfzig Jahren",
+    "intro": "Traditionelle bresciansker Gerichte werden mit der klassischen italienischen Küche zu bedeutenden Menüs kombiniert, geschickt von Chef Marco Bazzani und seinem qualifizierten Team zusammengestellt. Der Service im Speisesaal, geprägt von Höflichkeit und Aufmerksamkeit, wird persönlich von Augusto Bazzani koordiniert.",
     "conceptTitle": "Unsere Philosophie",
-    "conceptText": "Überlieferte Familienrezepte, lokale Lieferanten, die wir mit Namen kennen, Saisonalität als Regel. Jedes Gericht erzählt ein Stück unseres Gardasees.",
-    "menuTitle": "Saisonale Menüs",
-    "menuText": "Unser Menü wechselt mit den Jahreszeiten. Wir begleiten Sie bei der Auswahl mit passenden Weinen aus Brescia und der Valtènesi.",
-    "menuCta": "Menü herunterladen (PDF)",
-    "hoursTitle": "Öffnungszeiten",
+    "conceptText": "Unsere Küche ist überwiegend regional, mit Qualitätsprodukten der Saison. Seit über fünfzig Jahren pflegt die Familie Bazzani die Spezialitäten der bresciansken Küche mit der Leidenschaft und Höflichkeit von drei Generationen von Gastronomen.",
+    "menuTitle": "Bankette, Zeremonien und Veranstaltungen",
+    "menuText": "Das Hotel verfügt über vier große, modulare und flexible Säle, die bis zu 600 Gäste aufnehmen können. Zahlreiche Lösungen für Bankette, Empfänge, Firmenfeiern, Feierlichkeiten, Hochzeiten und Zeremonien.",
+    "menuCta": "Informationen anfragen",
+    "hoursTitle": "Öffnungszeiten Restaurant",
     "breakfast": "Frühstück: 07:30 – 10:00",
     "lunch": "Mittagessen: 12:30 – 14:00",
     "dinner": "Abendessen: 19:30 – 21:30",
-    "terraceTitle": "Die Palmenterrasse",
-    "terraceText": "In den warmen Monaten ist das Abendessen auf der Terrasse zwischen jahrhundertealten Palmen und warmem Licht ein Ritual, zu dem unsere Gäste jedes Jahr zurückkehren."
+    "terraceTitle": "Die Terrassen über dem See",
+    "terraceText": "Die zwei Terrassen mit Blick auf den Golf von Salò sind der ideale Ort für Sommerdiners, Aperitifs bei Sonnenuntergang und Frühstück im Freien, eingerahmt von den Palmen, die das Hotel umgeben."
   },
   "story": {
     "eyebrow": "Die Familie Bazzani",
-    "title": "Siebzig Jahre Morgen am See",
-    "intro": "Drei Generationen, ein Zuhause. Das Hotel Conca d'Oro ist die Geschichte einer Familie, die das Gastsein ganz einfach gelernt hat: indem sie ihre eigene Tür öffnet.",
-    "pullQuote": "„Wenn ein Gast kommt, bietet man ihm zuerst einen Kaffee an. Dann sehen wir weiter.“ — Großvater Carlo",
-    "timelineTitle": "Das Familienalbum",
+    "title": "Drei Generationen von Gastronomen am Golf von Salò",
+    "intro": "Seit über fünfzig Jahren pflegt die Familie Bazzani die Spezialitäten der bresciansken Küche und empfängt ihre Gäste mit Leidenschaft und Höflichkeit, weitergegeben über drei Generationen von Gastronomen. Die Familienführung garantiert Qualität, Sorgfalt und Exzellenz bei der Produktauswahl und im Service.",
+    "pullQuote": "„Qualität, Sorgfalt und Exzellenz bei der Produktauswahl und im Service werden durch die Leitung der Familie Bazzani gewährleistet.“",
+    "timelineTitle": "Eine Familiengeschichte",
     "timeline": [
       {
-        "year": "1952",
-        "title": "Ein Gasthaus mit neun Tischen",
-        "text": "Carlo und Maria Bazzani eröffnen ein kleines Gasthaus wenige Schritte vom See entfernt. Er empfängt die Gäste, sie kümmert sich um die Küche. Die Palmen kommen ein Jahr später, aus der Gärtnerei eines Freundes."
+        "year": "Die Anfänge",
+        "title": "Der Beginn am Golf von Salò",
+        "text": "Die Familie Bazzani beginnt, die Spezialitäten der bresciansken Küche zu pflegen, und empfängt die Gäste des Hotels nur wenige Schritte vom See entfernt, in herrlicher Lage mit der großen, palmenbestandenen Terrasse."
       },
       {
-        "year": "1978",
-        "title": "Neununddreißig Türen, die zu öffnen sind",
-        "text": "Die zweite Generation erweitert das Gasthaus: 39 Zimmer und eine Terrasse, die auf die Palmen blickt, die der Großvater gepflanzt hat. Die Küche bleibt die der Großmutter."
-      },
-      {
-        "year": "2001",
-        "title": "Restaurierung, keine Renovierung",
-        "text": "Wir erneuern Zimmer und Bäder und bewahren die ursprünglichen Böden, Großvaters Fensterrahmen, das Licht des Innenhofs. Verändern, ohne zu verraten."
+        "year": "Zweite Generation",
+        "title": "Erweiterung und vier Säle",
+        "text": "Das Hotel wächst: 42 gemütliche, gepflegte Zimmer und vier große, modulare Säle, die bis zu 600 Gäste für Bankette, Empfänge, Hochzeiten und Zeremonien aufnehmen können."
       },
       {
         "year": "Heute",
-        "title": "Die dritte Generation öffnet für Sie",
-        "text": "Wir kümmern uns weiterhin persönlich um jedes Detail. Jeden Morgen öffnen wir die Fensterläden aller 39 Zimmer. Jeden Abend löschen wir als Letzte die Lichter der Terrasse."
+        "title": "Die dritte Generation begrüßt Sie",
+        "text": "Chef Marco Bazzani leitet mit seinem qualifizierten Team die Küche. Augusto Bazzani koordiniert persönlich den Service im Speisesaal mit Höflichkeit und Aufmerksamkeit. Die Gastfreundschaft ist nach wie vor die einer familiengeführten Pension."
       }
     ],
     "valuesTitle": "Woran wir glauben",
     "values": [
       {
-        "title": "Sie kommen als Gäste, Sie gehen als Freunde",
-        "text": "Wir merken uns Ihren Namen, wie Sie Ihren Kaffee mögen, wann Sie frühstücken. Es sind Kleinigkeiten — sie machen den Unterschied."
+        "title": "Leidenschaft und Höflichkeit",
+        "text": "Wir empfangen unsere Gäste mit der Leidenschaft und Höflichkeit, die über drei Generationen von Gastronomen weitergegeben wurde. Wir möchten, dass Ihr Aufenthalt ein einzigartiges Erlebnis ist."
       },
       {
-        "title": "Unser Garda auf Ihrem Teller",
-        "text": "Unsere Lieferanten sind Fischer, Bauern, Ölmüller, die nur Kilometer entfernt arbeiten. Wir kennen sie mit Namen — und Sie schmecken es."
+        "title": "Region und Saison",
+        "text": "Unsere Küche ist überwiegend regional, mit Qualitätsprodukten der Saison. Die Spezialitäten der bresciansken Tradition stehen im Mittelpunkt unseres Angebots."
       },
       {
-        "title": "Seezeit",
-        "text": "Hier gibt es keine Eile. Die Schale aus Palmen schützt vor dem Wind und auch vor der Uhr. Wir laden Sie ein, mit uns langsamer zu werden."
+        "title": "Familienführung",
+        "text": "Qualität, Sorgfalt und Exzellenz bei der Produktauswahl und im Service werden durch die direkte Führung der Familie Bazzani gewährleistet."
       }
     ]
   },
   "gallery": {
     "eyebrow": "Galerie",
     "title": "Einblicke ins Hotel",
-    "intro": "Der Garten, die Zimmer, die Terrasse, die Gerichte des Restaurants: Bilder, die mehr als tausend Worte erzählen.",
+    "intro": "Das Hotel, die 42 Zimmer, die zwei Seeblick-Terrassen, der Park mit Palmen, die Säle des Restaurants und der Privatstrand am Golf von Salò.",
     "categories": {
       "hotel": "Hotel",
       "rooms": "Zimmer",
       "restaurant": "Restaurant",
-      "park": "Garten & See"
+      "park": "Park & Strand"
     }
   },
   "contact": {
@@ -202,7 +197,7 @@
     "directions": [
       {
         "mode": "Mit dem Auto",
-        "text": "Autobahnausfahrt A4 Desenzano, den Schildern nach Salò folgen (ca. 15 Minuten)."
+        "text": "Autobahnausfahrt A4 Desenzano, dann den Schildern nach Salò folgen (ca. 15 Minuten)."
       },
       {
         "mode": "Mit dem Zug",
@@ -222,25 +217,25 @@
     "mapTitle": "Unsere Lage"
   },
   "footer": {
-    "tagline": "Salò, Gardasee — Familie Bazzani",
+    "tagline": "Salò, Gardasee — Familie Bazzani, drei Generationen",
     "hoursTitle": "Rezeption",
     "contactsTitle": "Kontakt",
     "navTitle": "Erkunden",
     "credits": "© {year} Hotel Restaurant Conca d'Oro — Alle Rechte vorbehalten",
-    "vat": "USt-IdNr. 00000000000"
+    "vat": "USt-IdNr. 00629450982"
   },
   "seo": {
-    "homeTitle": "Hotel Conca d'Oro Salò | Hotel & Restaurant am Gardasee",
-    "homeDescription": "Hotel Restaurant Conca d'Oro in Salò: familiengeführt von der Familie Bazzani, 39 Zimmer, bresciansker Restaurant, Park und Terrasse wenige Schritte vom Gardasee.",
-    "roomsTitle": "Zimmer — Hotel Conca d'Oro Salò",
-    "roomsDescription": "39 Zimmer: Classic, Superior und Seeblick in Salò. WLAN, Parkplatz und Frühstück inklusive.",
+    "homeTitle": "Hotel Restaurant Conca d'Oro | Salò am Gardasee",
+    "homeDescription": "Das Hotel Conca d'Oro liegt am Golf von Salò und empfängt seine Gäste mit Leidenschaft und Höflichkeit. Die Familie Bazzani heißt Sie willkommen und macht Ihren Aufenthalt zu einem einzigartigen Erlebnis.",
+    "roomsTitle": "Hotel — Hotel Conca d'Oro Salò",
+    "roomsDescription": "42 gemütliche, gepflegte Zimmer, einige mit Balkon und Seeblick. Bad mit Dusche, LCD-Fernseher, Telefon, Safe. Park, zwei Terrassen und Privatstrand.",
     "restaurantTitle": "Restaurant — Bresciansker Küche in Salò | Hotel Conca d'Oro",
-    "restaurantDescription": "Traditionelle bresciansker Küche, Seefisch und Palmenterrasse. Das Restaurant des Hotels Conca d'Oro in Salò.",
-    "storyTitle": "Unsere Geschichte — Familie Bazzani | Hotel Conca d'Oro",
-    "storyDescription": "Seit 1952 drei Generationen Gastfreundschaft am Gardasee. Die Geschichte der Familie Bazzani und des Hotels Conca d'Oro.",
+    "restaurantDescription": "Spezialitäten der bresciansken Küche kombiniert mit klassischer italienischer Küche. Chef Marco Bazzani. Vier Säle bis zu 600 Gäste für Bankette, Hochzeiten und Zeremonien.",
+    "storyTitle": "Die Familie Bazzani — Hotel Conca d'Oro Salò",
+    "storyDescription": "Seit über fünfzig Jahren pflegt die Familie Bazzani die Spezialitäten der bresciansken Küche und empfängt ihre Gäste mit der Leidenschaft und Höflichkeit von drei Generationen von Gastronomen.",
     "galleryTitle": "Fotogalerie — Hotel Conca d'Oro Salò",
-    "galleryDescription": "Bilder des Hotels, der Zimmer, des Restaurants und des Gartens am Gardasee.",
+    "galleryDescription": "Bilder des Hotels, der 42 Zimmer, der Seeblick-Terrassen, des Parks und des Privatstrands am Golf von Salò.",
     "contactTitle": "Kontakt und Anfahrt — Hotel Conca d'Oro Salò",
-    "contactDescription": "Adresse, Telefon, E-Mail und Anfahrt zum Hotel Conca d'Oro in Salò, Gardasee."
+    "contactDescription": "Adresse, Telefon, E-Mail und Anfahrt zum Hotel Conca d'Oro in Salò, am Gardasee."
   }
 }

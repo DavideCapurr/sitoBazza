@@ -1,7 +1,9 @@
 # Hotel Ristorante Conca d'Oro — sito ufficiale
 
 Sito ufficiale dell'**Hotel Ristorante Conca d'Oro** di Salò (Lago di Garda, BS),
-gestione famiglia **Bazzani**.
+gestione famiglia **Bazzani** (Chef Marco Bazzani, sala coordinata da Augusto Bazzani).
+42 camere, quattro sale ristorante fino a 600 ospiti, parco con palme, due terrazze
+sul Golfo di Salò e spiaggia privata.
 
 Costruito con **Next.js 15** (App Router) + **TypeScript** + **Tailwind CSS v4**
 + **next-intl** (italiano, inglese, tedesco).

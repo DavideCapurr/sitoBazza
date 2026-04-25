@@ -1,6 +1,6 @@
 {
   "common": {
-    "bookNow": "Prenota la tua casa",
+    "bookNow": "Prenota ora",
     "bookCta": "Verifica disponibilità",
     "learnMore": "Scopri di più",
     "discover": "Scopri",
@@ -16,11 +16,11 @@
     "brandFull": "Hotel Ristorante Conca d'Oro",
     "tagline": "Salò, Lago di Garda",
     "viewAllRooms": "Vedi tutte le camere",
-    "viewGallery": "Sfoglia il nostro album",
+    "viewGallery": "Sfoglia la galleria",
     "readStory": "Leggi la nostra storia",
     "getDirections": "Indicazioni stradali",
     "signature": "La famiglia Bazzani",
-    "since": "Dal 1952"
+    "since": "Da tre generazioni"
   },
   "nav": {
     "home": "Home",
@@ -31,56 +31,56 @@
     "contact": "Contatti"
   },
   "home": {
-    "heroEyebrow": "Dal 1952",
-    "heroTitle": "La nostra casa, sul Lago di Garda",
-    "heroSubtitle": "Tre generazioni della famiglia Bazzani, le palme del nonno, le ricette della nonna, e il lago a due passi. Vi aspettiamo come si aspetta un amico.",
+    "heroEyebrow": "Salò — Lago di Garda",
+    "heroTitle": "Affacciati sul Golfo di Salò, da tre generazioni",
+    "heroSubtitle": "L'Hotel Conca d'Oro affaccia sul Golfo di Salò e accoglie i suoi ospiti con passione e cortesia. La famiglia Bazzani sarà lieta di accogliervi e rendere il vostro soggiorno un'esperienza unica.",
     "heroSignature": "— la famiglia Bazzani",
-    "letterEyebrow": "Una lettera di benvenuto",
-    "letterTitle": "Quando arrivate, sentirete subito l'aria del lago",
-    "letterBody": "Non siamo un grande hotel. Siamo una famiglia che, da tre generazioni, apre la stessa porta agli ospiti che decidono di fermarsi a Salò. Il nonno piantò le palme che oggi vi accoglieranno in terrazza. La nonna lasciò in cucina le ricette che lo chef ancora segue, virgola per virgola. Noi cerchiamo di tenere vivo tutto questo — l'odore del pane al mattino, la luce del lago tra gli ulivi, una conversazione lenta dopo cena. Casa nostra è la vostra casa.",
+    "letterEyebrow": "Benvenuti",
+    "letterTitle": "L'ospitalità di una famiglia di ristoratori",
+    "letterBody": "Da oltre cinquant'anni la famiglia Bazzani porta avanti le specialità della cucina bresciana e accoglie i suoi ospiti con la passione e la cortesia tramandate da tre generazioni di ristoratori. Hotel Conca d'Oro affaccia sul Golfo di Salò e si trova a pochi passi dal lago, in una posizione meravigliosa, con un'ampia terrazza ornata di palme e circondato da un bel parco.",
     "letterClose": "Vi aspettiamo,",
-    "introEyebrow": "Benvenuti",
-    "introTitle": "Un rifugio di famiglia a Salò",
-    "introText": "L'Hotel Conca d'Oro non è un'azienda: è la casa che la famiglia Bazzani apre da tre generazioni. Una conca di palme tra il lago e le colline, dove il tempo rallenta e ogni ospite torna come un amico.",
-    "highlightsTitle": "Quello che vi porterete a casa",
+    "introEyebrow": "L'hotel",
+    "introTitle": "A pochi passi dal lago, immersi nel parco",
+    "introText": "Le camere sono accoglienti e curate, due terrazze affacciano sul lago, un grande parco con parco giochi per bambini e un ampio parcheggio gratuito sono a disposizione degli ospiti. La spiaggia di proprietà esclusiva dell'hotel si trova dall'altra parte della strada, con giardino, chiosco, lettini e ombrelloni e accesso diretto al Golfo di Salò.",
+    "highlightsTitle": "Quello che vi attende",
     "highlights": {
       "lake": {
-        "title": "Il lago, a due passi",
-        "text": "Apri la finestra al mattino e senti l'acqua. Dal nostro parco arrivi al lungolago e al centro di Salò in pochi minuti, senza fretta."
+        "title": "Affacciati sul Golfo di Salò",
+        "text": "L'Hotel domina il Golfo di Salò, a circa cinque minuti a piedi dal centro storico. La nostra spiaggia privata è dall'altra parte della strada e da lì parte la passeggiata che costeggia tutto il Golfo."
       },
       "restaurant": {
-        "title": "La cucina della nonna",
-        "text": "Le ricette di famiglia, gli ingredienti dei contadini che conosciamo per nome, il pesce del lago e l'olio della Riviera dei Limoni."
+        "title": "Cucina bresciana di tradizione",
+        "text": "Da oltre cinquant'anni proponiamo le specialità della cucina bresciana, abbinate alla cucina classica nazionale, in menu curati personalmente dallo chef Marco Bazzani e dal suo staff."
       },
       "park": {
-        "title": "Le palme del nonno",
-        "text": "Le piantò lui, settant'anni fa. Oggi danno ombra a colazione e cornice agli aperitivi al tramonto."
+        "title": "Parco, terrazze e spiaggia",
+        "text": "Un grande parco con palme, due terrazze panoramiche sul lago, parco giochi per bambini, ampio parcheggio gratuito e una spiaggia esclusiva con chiosco aperto fino a tarda sera."
       },
       "family": {
-        "title": "La nostra porta",
-        "text": "Apriamo personalmente. Vi facciamo trovare il caffè, vi raccontiamo dove andare, vi salutiamo per nome."
+        "title": "Conduzione familiare",
+        "text": "La qualità, la cura e l'eccellenza nella scelta dei prodotti e nel servizio sono garantite dalla conduzione della famiglia Bazzani. Augusto Bazzani coordina personalmente la sala con cortesia e disponibilità."
       }
     },
     "roomsTeaserEyebrow": "Le camere",
-    "roomsTeaserTitle": "39 camere, ognuna con la sua storia",
-    "roomsTeaserText": "Le abbiamo curate una per una, mantenendo l'anima della casa. Dalle Classic affacciate sul parco alle Vista Lago dove l'acqua è la prima cosa che vedrete al mattino.",
+    "roomsTeaserTitle": "42 camere, alcune con vista lago",
+    "roomsTeaserText": "L'Hotel Conca d'Oro dispone di 42 camere, alcune con balcone vista lago o vista parco, dotate di bagno con doccia e asciugacapelli, televisore LCD con canali italiani ed esteri, telefono e cassaforte.",
     "restaurantTeaserEyebrow": "Il ristorante",
-    "restaurantTeaserTitle": "Sapori del Garda, anima bresciana",
-    "restaurantTeaserText": "I nostri piatti raccontano una geografia precisa: il pesce del lago, gli spiedi di Brescia, l'olio della riviera, le verdure dell'orto a pochi chilometri. Ricette di famiglia, non di chef.",
-    "reviewsTitle": "Le voci di chi è tornato",
+    "restaurantTeaserTitle": "Specialità bresciane e cucina classica nazionale",
+    "restaurantTeaserText": "I piatti della tradizione bresciana sono abbinati alla cucina classica nazionale in importanti menu, abilmente compilati dallo chef Marco Bazzani. La cucina è prevalentemente del territorio, con prodotti di qualità legati alla stagionalità.",
+    "reviewsTitle": "Le voci dei nostri ospiti",
     "reviews": [
       {
-        "text": "Ci hanno accolti come parenti. La colazione in terrazza, sotto le palme, è un'immagine che ci portiamo a casa ogni anno.",
+        "text": "Accoglienza impeccabile, una famiglia che ti fa sentire a casa. Colazione in terrazza indimenticabile.",
         "author": "Laura G.",
         "source": "Tripadvisor"
       },
       {
-        "text": "Il lago è lì, vero, a due passi. Ma è la cucina che ci ha fatto innamorare: bresciana, semplice, fatta con cura.",
+        "text": "Posizione splendida, a due passi dal lago. Il ristorante è una chicca: cucina bresciana autentica.",
         "author": "Markus W.",
         "source": "Booking"
       },
       {
-        "text": "Torniamo da otto anni. Mio figlio chiama Salò 'l'hotel con le palme'. Per noi è casa.",
+        "text": "Torniamo ogni anno. Il parco con le palme e la spiaggia privata sono un angolo di paradiso.",
         "author": "Famiglia Rossi",
         "source": "Google"
       }
@@ -89,114 +89,109 @@
   "rooms": {
     "eyebrow": "Hotel e camere",
     "title": "Un soggiorno tra lago e tradizione",
-    "intro": "Le nostre 39 camere si distribuiscono tra l'edificio storico e l'ala dedicata alle viste più aperte sul Garda. Materiali naturali, tessuti caldi e bagni rinnovati: tutto pensato per un riposo autentico.",
+    "intro": "Le 42 camere dell'Hotel Conca d'Oro sono accoglienti e curate, alcune con balcone vista lago o vista parco. Tutte dotate di bagno con doccia e asciugacapelli, televisore LCD con canali italiani ed esteri, telefono e cassaforte.",
     "typesTitle": "Tipologie di camera",
     "types": [
       {
         "name": "Classic",
-        "description": "Camere accoglienti rivolte al parco o al cortile interno, arredate con mobilio in legno chiaro e tessuti neutri.",
-        "features": ["Letto matrimoniale o due singoli", "Bagno privato con doccia", "Aria condizionata", "Wi-Fi gratuito"]
+        "description": "Camere accoglienti e curate, affacciate sul parco o sul cortile interno, con tutti i comfort.",
+        "features": ["Letto matrimoniale o due singoli", "Bagno con doccia e asciugacapelli", "TV LCD con canali italiani ed esteri", "Telefono e cassaforte", "Wi-Fi gratuito"]
       },
       {
-        "name": "Superior",
-        "description": "Più spaziose, alcune con balcone affacciato sul parco e sulla terrazza delle palme.",
-        "features": ["Balcone vista parco", "Zona living con poltrone", "Bagno con vasca o doccia", "Minibar"]
+        "name": "Vista Parco",
+        "description": "Più spaziose, con balcone affacciato sul parco e sulla terrazza ornata di palme.",
+        "features": ["Balcone vista parco", "Bagno con doccia e asciugacapelli", "TV LCD con canali italiani ed esteri", "Telefono e cassaforte", "Wi-Fi gratuito"]
       },
       {
         "name": "Vista Lago",
-        "description": "Le camere più luminose, con affaccio diretto sul Lago di Garda e finestra sulle montagne.",
-        "features": ["Vista lago panoramica", "Balcone privato", "Letto king size", "Set cortesia dedicato"]
+        "description": "Le camere affacciate sul lago, con balcone privato e vista sul Golfo di Salò.",
+        "features": ["Balcone vista lago", "Bagno con doccia e asciugacapelli", "TV LCD con canali italiani ed esteri", "Telefono e cassaforte", "Wi-Fi gratuito"]
       }
     ],
-    "servicesTitle": "Servizi inclusi",
+    "servicesTitle": "Servizi e dotazioni",
     "services": [
+      "42 camere accoglienti e curate",
+      "Due terrazze panoramiche sul lago",
+      "Spiaggia privata sull'altra parte della strada",
+      "Parco con palme e parco giochi per bambini",
+      "Ampio parcheggio gratuito",
+      "Quattro sale ristorante fino a 600 ospiti",
       "Wi-Fi gratuito in tutto l'hotel",
-      "Parcheggio riservato",
-      "Colazione bresciana a buffet",
-      "Terrazza e parco con palme",
-      "Ristorante interno",
-      "Reception cordiale e multilingue",
-      "Biciclette su richiesta",
-      "Deposito bagagli"
+      "Reception cordiale e multilingue"
     ],
     "policyTitle": "Check-in e check-out",
-    "policy": "Check-in dalle 14:00, check-out entro le 11:00. Per arrivi fuori orario ti preghiamo di contattarci: troveremo sempre una soluzione su misura."
+    "policy": "Check-in dalle 14:00, check-out entro le 11:00. Per arrivi fuori orario contattateci: troveremo sempre una soluzione per voi."
   },
   "restaurant": {
     "eyebrow": "Il ristorante",
-    "title": "La cucina bresciana, ogni giorno",
-    "intro": "Nel nostro ristorante portiamo in tavola i sapori del territorio: dal pesce di lago agli spiedi della tradizione, dai formaggi della Valle Sabbia all'olio extravergine della Riviera dei Limoni.",
+    "title": "Cucina bresciana, da oltre cinquant'anni",
+    "intro": "I piatti della tradizione bresciana sono abbinati alla cucina classica nazionale in importanti menu, abilmente compilati dallo chef Marco Bazzani con il suo staff qualificato. Il servizio in sala, basato su cortesia e disponibilità, è coordinato personalmente da Augusto Bazzani.",
     "conceptTitle": "La nostra filosofia",
-    "conceptText": "Ricette di famiglia tramandate, fornitori locali che conosciamo per nome, stagionalità come regola. Ogni piatto racconta un pezzo del nostro Garda.",
-    "menuTitle": "Menu stagionali",
-    "menuText": "Il nostro menu cambia con le stagioni. Ti accompagniamo nella scelta con abbinamenti di vini bresciani e della Valtènesi.",
-    "menuCta": "Scarica il menu (PDF)",
-    "hoursTitle": "Orari",
+    "conceptText": "La cucina offerta è prevalentemente del territorio, con prodotti di qualità legati alla stagionalità. Da oltre cinquant'anni la famiglia Bazzani porta avanti le specialità della cucina bresciana con la passione e la cortesia di tre generazioni di ristoratori.",
+    "menuTitle": "Banchetti, cerimonie ed eventi",
+    "menuText": "L'hotel dispone di quattro grandi sale, modulabili e flessibili, in grado di ospitare fino a 600 ospiti. Numerose soluzioni per banchetti, ricevimenti, feste aziendali, celebrazioni, matrimoni e cerimonie.",
+    "menuCta": "Richiedi informazioni",
+    "hoursTitle": "Orari del ristorante",
     "breakfast": "Colazione: 07:30 – 10:00",
     "lunch": "Pranzo: 12:30 – 14:00",
     "dinner": "Cena: 19:30 – 21:30",
-    "terraceTitle": "La terrazza delle palme",
-    "terraceText": "Nei mesi caldi cenare in terrazza, tra palme secolari e luci calde, è un rito a cui gli ospiti tornano ogni anno."
+    "terraceTitle": "Le terrazze sul lago",
+    "terraceText": "Le due terrazze affacciate sul Golfo di Salò sono il luogo ideale per cene estive, aperitivi al tramonto e prime colazioni all'aperto, ornate dalle palme che incorniciano l'hotel."
   },
   "story": {
     "eyebrow": "La famiglia Bazzani",
-    "title": "Settant'anni di mattine sul lago",
-    "intro": "Tre generazioni, una sola casa. L'Hotel Conca d'Oro è la storia di una famiglia che ha imparato a ospitare nel modo più semplice: aprendo la propria porta.",
-    "pullQuote": "«Quando arriva un ospite, prima di tutto gli si offre un caffè. Poi si vede.» — Nonno Carlo",
-    "timelineTitle": "L'album di famiglia",
+    "title": "Tre generazioni di ristoratori sul Golfo di Salò",
+    "intro": "Da oltre cinquant'anni la famiglia Bazzani porta avanti le specialità della cucina bresciana e accoglie gli ospiti con la passione e la cortesia tramandate da tre generazioni di ristoratori. La conduzione familiare garantisce qualità, cura ed eccellenza nella scelta dei prodotti e nel servizio.",
+    "pullQuote": "«La qualità, la cura e l'eccellenza nella scelta dei prodotti e del servizio sono garantite dalla conduzione della famiglia Bazzani.»",
+    "timelineTitle": "Una storia di famiglia",
     "timeline": [
       {
-        "year": "1952",
-        "title": "Una locanda di nove tavoli",
-        "text": "Carlo e Maria Bazzani aprono una piccola locanda a due passi dal lago. Lui in sala, lei ai fornelli. Le palme arriveranno l'anno dopo, dal vivaio di un amico."
+        "year": "Le origini",
+        "title": "L'inizio sul Golfo di Salò",
+        "text": "La famiglia Bazzani inizia a portare avanti le specialità della cucina bresciana, accogliendo gli ospiti dell'hotel a pochi passi dal lago, in una posizione meravigliosa con la sua ampia terrazza ornata di palme."
       },
       {
-        "year": "1978",
-        "title": "Trentanove porte da aprire",
-        "text": "I figli ampliano la locanda: nascono 39 camere e la terrazza affacciata sulle palme che il nonno ha piantato. La cucina resta quella della nonna."
-      },
-      {
-        "year": "2001",
-        "title": "Restauro, non ristrutturazione",
-        "text": "Rinnoviamo camere e bagni mantenendo i pavimenti originali, gli infissi del nonno, la luce del cortile. Cambiare senza tradire."
+        "year": "La seconda generazione",
+        "title": "L'ampliamento e le quattro sale",
+        "text": "L'hotel cresce: 42 camere accoglienti e curate, quattro grandi sale modulabili in grado di ospitare fino a 600 ospiti per banchetti, ricevimenti, matrimoni e cerimonie."
       },
       {
         "year": "Oggi",
-        "title": "La terza generazione vi apre",
-        "text": "Curiamo ancora ogni dettaglio personalmente. Ogni mattina apriamo le persiane delle 39 camere. Ogni sera spegniamo le luci della terrazza per ultimi."
+        "title": "La terza generazione vi accoglie",
+        "text": "Lo chef Marco Bazzani guida la cucina con il suo staff qualificato. Augusto Bazzani coordina personalmente il servizio in sala con cortesia e disponibilità. La cura è ancora quella di una conduzione familiare."
       }
     ],
     "valuesTitle": "Quello in cui crediamo",
     "values": [
       {
-        "title": "Si entra come ospiti, si esce come amici",
-        "text": "Ricordiamo il vostro nome, come prendete il caffè, e a che ora amate fare colazione. Sono cose piccole, ma fanno la differenza."
+        "title": "Passione e cortesia",
+        "text": "Accogliamo i nostri ospiti con la passione e la cortesia tramandate da tre generazioni di ristoratori. Vogliamo che il vostro soggiorno sia un'esperienza unica."
       },
       {
-        "title": "Il nostro Garda nel piatto",
-        "text": "I nostri fornitori sono pescatori, contadini, frantoiani che lavorano a chilometri da qui. Li conosciamo per nome — e si sente."
+        "title": "Territorio e stagionalità",
+        "text": "La nostra cucina è prevalentemente del territorio, con prodotti di qualità legati alla stagionalità. Le specialità della tradizione bresciana sono al centro della nostra proposta."
       },
       {
-        "title": "Il tempo del lago",
-        "text": "Qui non c'è fretta. La conca di palme protegge dal vento e anche dall'orologio. Vi invitiamo a rallentare con noi."
+        "title": "Conduzione familiare",
+        "text": "Qualità, cura ed eccellenza nella scelta dei prodotti e del servizio sono garantite dalla conduzione diretta della famiglia Bazzani."
       }
     ]
   },
   "gallery": {
     "eyebrow": "Galleria",
     "title": "Scorci dell'hotel",
-    "intro": "Il parco, le camere, la terrazza, i piatti del ristorante: immagini che raccontano meglio di mille parole.",
+    "intro": "L'hotel, le 42 camere, le due terrazze sul lago, il parco con le palme, le sale del ristorante e la spiaggia privata sul Golfo di Salò.",
     "categories": {
       "hotel": "Hotel",
       "rooms": "Camere",
       "restaurant": "Ristorante",
-      "park": "Parco e lago"
+      "park": "Parco e spiaggia"
     }
   },
   "contact": {
     "eyebrow": "Contatti",
-    "title": "Scrivici, chiamaci, passa a trovarci",
-    "intro": "Saremo felici di rispondere a ogni tua domanda e di aiutarti a organizzare il soggiorno su misura.",
+    "title": "Scriveteci, chiamateci, passate a trovarci",
+    "intro": "Saremo lieti di rispondere alle vostre domande e di aiutarvi a organizzare un soggiorno su misura.",
     "infoTitle": "Informazioni di contatto",
     "directionsTitle": "Come arrivare",
     "directions": [
@@ -222,25 +217,25 @@
     "mapTitle": "La nostra posizione"
   },
   "footer": {
-    "tagline": "Salò, Lago di Garda — Famiglia Bazzani",
+    "tagline": "Salò, Lago di Garda — Famiglia Bazzani, da tre generazioni",
     "hoursTitle": "Reception",
     "contactsTitle": "Contatti",
     "navTitle": "Esplora",
     "credits": "© {year} Hotel Ristorante Conca d'Oro — Tutti i diritti riservati",
-    "vat": "P.IVA 00000000000"
+    "vat": "P.IVA 00629450982"
   },
   "seo": {
-    "homeTitle": "Hotel Conca d'Oro Salò | Hotel e Ristorante sul Lago di Garda",
-    "homeDescription": "Hotel Ristorante Conca d'Oro a Salò: gestione familiare Bazzani, 39 camere, ristorante bresciano, parco e terrazza a pochi passi dal Lago di Garda.",
-    "roomsTitle": "Camere — Hotel Conca d'Oro Salò",
-    "roomsDescription": "39 camere tra Classic, Superior e Vista Lago a Salò. Wi-Fi, parcheggio e colazione inclusi.",
+    "homeTitle": "Hotel Ristorante Conca d'Oro | Salò sul Lago di Garda",
+    "homeDescription": "L'Hotel Conca d'Oro affaccia sul Golfo di Salò e accoglie i suoi ospiti con passione e cortesia. La famiglia Bazzani sarà lieta di accogliervi e rendere il vostro soggiorno un'esperienza unica.",
+    "roomsTitle": "Hotel — Hotel Conca d'Oro Salò",
+    "roomsDescription": "42 camere accoglienti e curate, alcune con balcone vista lago. Bagno con doccia, TV LCD, telefono, cassaforte. Parco, due terrazze e spiaggia privata.",
     "restaurantTitle": "Ristorante — Cucina bresciana a Salò | Hotel Conca d'Oro",
-    "restaurantDescription": "Cucina bresciana di tradizione, pesce di lago e terrazza con palme. Ristorante dell'Hotel Conca d'Oro a Salò.",
-    "storyTitle": "La nostra storia — Famiglia Bazzani | Hotel Conca d'Oro",
-    "storyDescription": "Dal 1952 tre generazioni di ospitalità sul Lago di Garda. La storia della famiglia Bazzani e dell'Hotel Conca d'Oro.",
+    "restaurantDescription": "Specialità della cucina bresciana abbinate alla cucina classica nazionale. Chef Marco Bazzani. Quattro sale fino a 600 ospiti per banchetti, matrimoni e cerimonie.",
+    "storyTitle": "La famiglia Bazzani — Hotel Conca d'Oro Salò",
+    "storyDescription": "Da oltre cinquant'anni la famiglia Bazzani porta avanti le specialità della cucina bresciana e accoglie gli ospiti con la passione e la cortesia di tre generazioni di ristoratori.",
     "galleryTitle": "Galleria fotografica — Hotel Conca d'Oro Salò",
-    "galleryDescription": "Immagini dell'hotel, delle camere, del ristorante e del parco sul Lago di Garda.",
+    "galleryDescription": "Immagini dell'hotel, delle 42 camere, delle terrazze sul lago, del parco e della spiaggia privata sul Golfo di Salò.",
     "contactTitle": "Contatti e come arrivare — Hotel Conca d'Oro Salò",
-    "contactDescription": "Indirizzo, telefono, email e indicazioni per raggiungere l'Hotel Conca d'Oro a Salò, Lago di Garda."
+    "contactDescription": "Indirizzo, telefono, email e indicazioni per raggiungere l'Hotel Conca d'Oro a Salò, sul Lago di Garda."
   }
 }

@@ -14,7 +14,7 @@ export function HotelJsonLd({ locale }: { locale: Locale }) {
     email: "info@hotelconcadoro.com",
     priceRange: "€€",
     starRating: { "@type": "Rating", ratingValue: "3" },
-    numberOfRooms: 39,
+    numberOfRooms: 42,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Via Zette, 7",
@@ -33,11 +33,13 @@ export function HotelJsonLd({ locale }: { locale: Locale }) {
       "https://www.google.com/maps/search/?api=1&query=Hotel+Conca+d%27Oro+Salo",
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "Free Wi-Fi", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Parking", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Free parking", value: true },
       { "@type": "LocationFeatureSpecification", name: "Restaurant", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Terrace", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Garden", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Lake view", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Two terraces with lake view", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Park with palms", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Children's playground", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Private beach", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Banquet halls (up to 600 guests)", value: true },
     ],
     inLanguage: ["it", "en", "de"],
   };
