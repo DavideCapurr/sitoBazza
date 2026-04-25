@@ -6,12 +6,11 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { RoomCard } from "@/components/RoomCard";
 import { BookNowButton } from "@/components/BookNowButton";
 import { Wifi, Car, Coffee, TreePalm, UtensilsCrossed, Languages, Bike, Briefcase } from "lucide-react";
-import type { Locale } from "@/i18n/routing";
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "seo" });
@@ -23,7 +22,7 @@ const SERVICE_ICONS = [Wifi, Car, Coffee, TreePalm, UtensilsCrossed, Languages, 
 export default async function HotelPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

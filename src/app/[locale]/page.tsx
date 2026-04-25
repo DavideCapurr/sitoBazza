@@ -6,7 +6,6 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { RoomCard } from "@/components/RoomCard";
 import { BookNowButton } from "@/components/BookNowButton";
 import { Link } from "@/i18n/routing";
-import type { Locale } from "@/i18n/routing";
 import Image from "next/image";
 import { Waves, UtensilsCrossed, TreePalm, Heart } from "lucide-react";
 
@@ -15,7 +14,7 @@ type Review = { text: string; author: string; source: string };
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "seo" });
@@ -25,7 +24,7 @@ export async function generateMetadata({
 export default async function HomePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

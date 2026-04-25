@@ -3,15 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import clsx from "clsx";
-
-export const NAV_ITEMS = [
-  { href: "/", key: "home" },
-  { href: "/hotel", key: "hotel" },
-  { href: "/ristorante", key: "restaurant" },
-  { href: "/storia", key: "story" },
-  { href: "/galleria", key: "gallery" },
-  { href: "/contatti", key: "contact" },
-] as const;
+import { NAV_ITEMS } from "@/lib/nav";
 
 export function Nav({
   onNavigate,

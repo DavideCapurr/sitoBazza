@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Logo } from "./Logo";
-import { NAV_ITEMS } from "./Nav";
+import { NAV_ITEMS } from "@/lib/nav";
 import { BookNowButton } from "./BookNowButton";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 

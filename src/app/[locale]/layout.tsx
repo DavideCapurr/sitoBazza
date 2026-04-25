@@ -30,7 +30,7 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "seo" });
@@ -85,19 +85,20 @@ export default async function LocaleLayout({
   params,
 }: {
   children: ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  if (!routing.locales.includes(locale)) notFound();
+  if (!routing.locales.includes(locale as Locale)) notFound();
+  const typedLocale = locale as Locale;
 
-  setRequestLocale(locale);
+  setRequestLocale(typedLocale);
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${serif.variable} ${sans.variable}`}>
+    <html lang={typedLocale} className={`${serif.variable} ${sans.variable}`}>
       <body className="bg-[--color-cream-soft] text-[--color-ink] antialiased">
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <HotelJsonLd locale={locale} />
+        <NextIntlClientProvider messages={messages} locale={typedLocale}>
+          <HotelJsonLd locale={typedLocale} />
           <a
             href="#main"
             className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:shadow"
